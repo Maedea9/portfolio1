@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  margin: 0;
+}
+
+.ic_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 20px 20px 50px 0;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom: none;
+  width: 100%;
+  height: 80px;
+}
+
+.container-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  background: #fff;
+  background-image: url(./images/img1.svg);
+  background-repeat: no-repeat;
+}
+
+.first-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  height: 126px;
+  margin: 20px;
+}
+
+h1 {
+  height: 70px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-bottom: 0;
+}
+
+.introduction {
+  margin-right: 75px;
+  margin-top: 50px;
+  height: auto;
+}
+
+div.box {
+  height: 50px;
+  padding-inline: 16px;
+}
+
+.box a {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  color: #fff;
+  background: #1a2236;
+  height: 50px;
+  justify-content: center;
+}
+
+.button1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border: color;
+  text-decoration: none;
+}
+
+.geometrybottom {
+  background: url("images/image_geometry_2.png") no-repeat;
+  background-size: contain;
+  height: 50vw;
+  left: 0;
+  top: 472px;
+  align-self: flex-end;
+  margin-top: 20px;
+  width: 100%;
+}
