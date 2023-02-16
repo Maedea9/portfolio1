@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
+body {
+  margin: 0;
+}
+
 .ic_menu {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  margin: 20px 20px 50px 0;
 }
 
 .toolbar {
@@ -33,7 +36,7 @@
   line-height: 21px;
   color: #1a2236;
   height: 126px;
-  margin-left: 16px;
+  margin: 20px;
 }
 
 h1 {
