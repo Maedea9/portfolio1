@@ -80,9 +80,19 @@ div.box {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
+  align-items: center;
   border: color;
   text-decoration: none;
+}
+
+.button1:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.fa-arrow-down-long {
+  padding-left: 10px;
 }
 
 .geometrybottom {
@@ -125,7 +135,7 @@ h3 {
 }
 
 ul {
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 li {
@@ -136,7 +146,6 @@ li {
 .projects {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .works {
@@ -153,6 +162,7 @@ li {
   flex-direction: row;
   justify-items: stretch;
   margin-top: 10px;
+  padding-left: 10px;
 }
 
 .item1 {
@@ -207,18 +217,32 @@ li {
 
 div.item4 {
   width: 180px;
+  padding: 0;
 }
 
 .item4 a {
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
   padding-right: 16px;
   padding-left: 16px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   color: #fff;
   background: #1a2236;
-  height: 50px;
-  justify-content: center;
+  height: 45px;
   text-decoration: none;
+}
+
+.item4 a:hover {
+  background: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.fa-arrow-right {
+  font-size: 18px;
+  padding-top: 2px;
+  padding-left: 5px;
 }
 
 .second-text {
@@ -235,6 +259,8 @@ div.item4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
+  margin-left: 16px;
+  margin-right: 16px;
   list-style: none;
 }
 
@@ -264,8 +290,6 @@ div.item4 {
 }
 
 .lang1 {
-  display: flex;
-  flex-direction: column;
   height: 10px;
   left: 10px;
   padding-top: 40px;
@@ -277,13 +301,10 @@ div.item4 {
 
 .lang2 {
   display: flex;
-  flex-direction: column;
   height: 10px;
   left: 65px;
   top: 3891px;
   padding-bottom: 27px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -307,8 +328,6 @@ div.item4 {
 }
 
 .fram1 {
-  display: flex;
-  flex-direction: column;
   width: 142px;
   height: 10px;
   padding-top: 40px;
@@ -320,13 +339,9 @@ div.item4 {
 
 .fram2 {
   display: flex;
-  flex-direction: column;
   width: 142px;
   height: 10px;
   padding-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
@@ -350,12 +365,8 @@ div.item4 {
 
 .skill2 {
   display: flex;
-  flex-direction: column;
   height: 10px;
   margin-top: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
