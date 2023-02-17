@@ -95,3 +95,130 @@ div.box {
   margin-top: 20px;
   width: 100%;
 }
+
+
+h2 {
+  width: 220px;
+  height: 30px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+
+h3 {
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  top: 960px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  padding-left: 16px;
+  padding-top: 20px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+.works {
+  display: grid;
+  background-color: #1a2236;
+  height: auto;
+  padding-left: 0;
+  column-gap: 10px;
+  padding-top: 10px;
+}
+
+.technology-container {
+display: flex;
+flex-direction: row;
+justify-items: stretch;
+margin-top: 10px;
+}
+
+.item1 {
+  padding: 10px;
+  padding-right: 20px;
+  text-align: center;
+  background: #98dede;
+  border: solid #1a2236 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.item2 {
+  padding: 10px;
+  padding-right: 30px;
+  background: #98dede;
+  border: solid #1a2236 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 10.3334px;
+  line-height: 80%;
+  font-weight: 300;
+  color: #1a2236;
+}
+
+.item3 {
+  padding: 6px;
+  padding-right: 20px;
+  text-align: center;
+  background: #98dede;
+  border: solid #1a2236 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  color: #1a2236;
+}
+
+.item4 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  align-self: center;
+  border: 1px solid #fff;
+}
+
+div.item4 {
+  width: 180px;
+}
+
+.item4 a {
+  box-sizing: border-box;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  color: #fff;
+  background: #1a2236;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none;
+}
+
