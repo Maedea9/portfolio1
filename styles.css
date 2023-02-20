@@ -139,8 +139,9 @@ ul {
 }
 
 li {
-  display: inline-flex;
-  flex-direction: row;
+  /* display: inline-flex;
+  flex-direction: row; */
+  list-style: none;
 }
 
 .projects {
@@ -158,11 +159,11 @@ li {
 }
 
 .technology-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-items: stretch;
   margin-top: 10px;
-  padding-left: 10px;
+  padding-left: 10px; */
 }
 
 .item1 {
@@ -203,6 +204,13 @@ li {
   font-weight: 300;
   font-size: 10.3334px;
   color: #1a2236;
+}
+
+.item1,
+.item2,
+.item3 {
+  float: left;
+  margin-left: 16px;
 }
 
 .item4 {
