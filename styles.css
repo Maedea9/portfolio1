@@ -512,5 +512,53 @@ div.item4 {
   color: #1a2236;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ /* height: 150px;*/
+  background: #1a2236;
+  width: 100%;
+}
+
+.get-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+.get-my-resume {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-left: 16px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+ align-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button3 {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  background-color: #1a2236;
+}
+
+.social-links {
+  margin-left: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
 
 
