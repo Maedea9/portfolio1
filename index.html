@@ -171,29 +171,44 @@
         <section aria-label="Contact-me">
           <div class="container-contact-me">
             <h2 class="get-started">Get started</h2>
+            <p class="third-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <form action="https://formspree.io/f/xlekdqzj" method="post">
+              <div class="input-label">
+                <label class="label">Your name</label>
+                <input class="input" name="name" id="name" type="text" maxlength="30" placeholder="Your name" required> 
+              </div>
+              <div class="input-label">
+                <label class="label">Your Email</label>
+              <input class="input" name="Email" id="email" type="email" placeholder="Your email" required>
+              </div>
+              <div class="input-label" id="message-area">
+                <label class="label" id="message-label"></label>
+              <textarea class= "input-textarea" name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
+              </div>
+              <button class="submit-button" id="form-submit" type="submit">
+                <p class="text-a">Start Collaboration</p>
+              </button>
+            </form>
+            <footer class="social-media">
+              <div class="get-resume">
+                <a href="#" class="get-my-resume">Get my Resume</a>
+                <img src="images/ic_link_teal.svg" a href="#" class="button1"></a>
+              </div>
+              <div class="social-icons">
+              <ul>
+                <li class="social-links"><img src="images/ic_stackoverflow.svg" a href="#" class="button3"></a></li>
+                <li class="social-links"><img src="images/ic_github.svg" a href="#" class="button3"></a></li>
+                <li class="social-links"><img src="images/ic_twitter.svg" a href="#" class="button3"></a></li>
+                <li class="social-links"><img src="images/ic_linkedin.svg" a href="#" class="button3"></a></li>
+                <li class="social-links"><img src="images/ic_medium.svg" a href="#" class="button3"></a></li>
+                <li class="social-links"><img src="images/ic_angellist.svg" a href="#" class="button3"></a></li>
+              </ul>
+            </div>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-          <form action="https://formspree.io/f/xlekdqzj" method="post">
-
-            <div class="input-label">
-              <label class="label" for="name">Your name</label>
-              <input class="input" name="name" id="name" type="text" maxlength="30" placeholder="Your name" required>
-            </div>
-
-            <div class="input-label">
-              <label for="email" class="input">Your email</label>
-              <input type="email" name="email" id="email" placeholder="Your email" required>
-            </div>
-
-            <div class="input-label">
-              <label for="message-area"></label>
-              <textarea class="input-text-area" name="message" id="message-area" placeholder="Enter your message here..." maxlength="500" required>
-              </textarea>
-            </div>
-            
-            <button class="submit-button" id="form-submit" type="submit">Start collaboration</button>>
+            </footer>
+          
+      </section>
+      
 
           </form>
 
