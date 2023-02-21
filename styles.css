@@ -372,11 +372,11 @@ div.item4 {
   letter-spacing: -0.0525em;
 }
 
-/*form,
+/* form,
 .input-label {
   display: flex;
   flex-direction: column;
-}*/
+} */
 
 .container-contact-me {
   display: flex;
@@ -392,7 +392,7 @@ div.item4 {
 .get-started {
   margin-right: 135px;
   margin-top: 106px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   height: auto;
 }
 
@@ -415,12 +415,11 @@ div.item4 {
   height: 52px;
   width: 335px;
   margin-bottom: 20px;
-  margin-left: 0px;
+  margin-left: 0;
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
 }
-
 
 .label {
   font-family: 'Poppins', sans-serif;
@@ -483,7 +482,7 @@ div.item4 {
   flex-direction: column;
   align-items: center;
   height: 44px;
-  margin-left: 0px;
+  margin-left: 0;
   background: #1a2236;
   margin-bottom: 50px;
   padding-inline: 16px;
@@ -503,7 +502,6 @@ div.item4 {
   font-size: 16px;
   line-height: 12px;
   text-align: center;
-
   height: 112px;
   color: #fff;
 }
@@ -516,7 +514,8 @@ div.item4 {
   display: flex;
   flex-direction: column;
   align-items: center;
- /* height: 150px;*/
+
+  /* height: 150px; */
   background: #1a2236;
   width: 100%;
 }
@@ -543,7 +542,7 @@ div.item4 {
 .social-icons {
   display: flex;
   flex-direction: row;
- align-items: stretch;
+  align-items: stretch;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -560,5 +559,3 @@ div.item4 {
   margin-right: 10px;
   cursor: pointer;
 }
-
-
