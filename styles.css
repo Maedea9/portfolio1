@@ -371,3 +371,11 @@ div.item4 {
   line-height: 27px;
   letter-spacing: -0.0525em;
 }
+
+form,
+.input-label {
+  display: flex;
+  flex-direction: column;
+}
+
+
