@@ -371,3 +371,191 @@ div.item4 {
   line-height: 27px;
   letter-spacing: -0.0525em;
 }
+
+/* form,
+.input-label {
+  display: flex;
+  flex-direction: column;
+} */
+
+.container-contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 813px;
+  margin-top: 5vh;
+  background: #f9f9fa;
+  background-image: url(./images/img1.svg);
+  background-repeat: no-repeat;
+}
+
+.get-started {
+  margin-right: 135px;
+  margin-top: 106px;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.third-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  height: 63px;
+  margin-left: 16px;
+  max-width: 336px;
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 52px;
+  width: 335px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+}
+
+.label {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  height: 15px;
+  width: auto;
+  margin-top: 2px;
+  margin-left: 16px;
+  margin-bottom: 4px;
+  color: #7d7c84;
+}
+
+.input {
+  border: 0;
+  outline: 0;
+  margin-left: 16px;
+  height: 84px;
+  width: 288px;
+}
+
+.input:focus {
+  outline: none !important;
+}
+
+.input::placeholder {
+  opacity: 0;
+}
+
+.input-textarea {
+  border: 0;
+  outline: 0;
+  margin-left: 16px;
+  width: 260px;
+  height: 84px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message-area {
+  height: 112px;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 44px;
+  margin-left: 0;
+  background: #1a2236;
+  margin-bottom: 50px;
+  padding-inline: 16px;
+  width: 336px;
+}
+
+.submit-button:hover {
+  background: #fff;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
+.text-a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+  text-align: center;
+  height: 112px;
+  color: #fff;
+}
+
+.text-a:hover {
+  color: #1a2236;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* height: 150px; */
+  background: #1a2236;
+  width: 100%;
+}
+
+.get-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+.get-my-resume {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-left: 16px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button3 {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  background-color: #1a2236;
+}
+
+.social-links {
+  margin-left: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}

@@ -3,9 +3,6 @@ Microverse day 3 project
 <a name="readme-top"></a>
 
 <div align="center">
-  
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 # 📗 Table of Contents
