@@ -654,27 +654,28 @@ div.item4 {
   margin-top: 90px;
    }
 
-   .projects > h2 {
+   .projects > .grid-area1 {
     grid-area: project-title;
-    display: flex;
-    justify-content: flex-end;
-    align-items: stretch;
     transform: rotate(-90deg);
-    height: 205px;
-    padding-bottom: 10vw;
-    font-size: 7vw;
-    margin-top: 0vw;
-    margin-bottom: 5vw;
-    margin-left: 6vw;
-    padding-left: 9vw;
+    height: 100px;
+    padding-top: 0vw;
+    padding-bottom: 20vw;
+    margin-top: 0;
+    margin-left: 5vw;
+    padding-left: 5vw;
     background: url(images/image_dots1.svg) bottom right no-repeat;
-    background-size: 10vw;
+    background-size: 9vw;
+    width: fit-content;
+   }
+
+   .grid-area1 > h2 {
+    font-size: 5vw;
    }
 
    .projects > .w {
   grid-area: w;
-  width: 65.8vw;
-  padding-top: 0px;
+  width: 50vw;
+  /*height: 20vw;*/
 }
 
 .technology-container {
@@ -689,27 +690,32 @@ div.item4 {
   max-width: 100%;
   max-height: 100%;
 }
+.image2 {
+  max-width: 100%;
+  max-height: 100%;
+}
 
+.works {
+  background-color: #fff;
+}
 .work-description {
   display: var(--flex);
   width: 100%;
-  height: 50%;
+  height: 0%;
   visibility: hidden;
   transform: translateY(100%);
   position: absolute;
-  /*transition: ease-out;
-  transition-duration: 200ms;*/
   background-color: #1A2236;
 }
 
 .works:hover {
   transform: scale(1.00);
   z-index: 0;
-}
+} 
 
 .works:hover > .work-description {
   visibility: visible;
-  height: 49.7%;
+  height: auto;
   transform: translateY(100%);
   /*transition: ease-out;
   transition-duration: 200ms;*/
@@ -727,7 +733,7 @@ width: 100%;
 .projects > .w1 {
   grid-area: w1;
   width: 33vw;
-  /*height: 31vw;*/
+  /*height: 36vw;*/
   padding-top: 0px;
   margin-top: 60px;
 }
@@ -736,13 +742,13 @@ width: 100%;
   grid-area: geom;
   width: 100%;
   background: url(images/image-geometry_2.svg) no-repeat;
-  background-size: 34.4vw;
+  background-size: 30vw;
   height: 25vw;
 }
 
 .projects > .w2 {
   grid-area: w2;
-  width: 40vw;
+  width: 51vw;
   /*height: 32vw;*/
   margin-bottom: 0;
 }
@@ -769,9 +775,9 @@ margin-top: 20vw;
 .desktop-geomb {
   grid-area: geom2;
   width: 100%;
-  background: url(images/image-geometry_3.svg) right no-repeat;
-  background-size: 36.4vw;
-  height: 26.6vw;
+  background: url(images/image-geometry_3.svg) no-repeat;
+  background-size: 30vw;
+  height: 19vw;
 }
 
 
@@ -785,7 +791,7 @@ margin-top: 20vw;
 .desktop-geomd {
   grid-area: geom3;
   width: 40vw;
-  background: url(images/image-geometry_4.svg) no-repeat ;
+  background: url(images/image-geometry_4.svg) right no-repeat ;
 }
 
 
