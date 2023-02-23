@@ -794,5 +794,33 @@ margin-top: 20vw;
   background: url(images/image-geometry_4.svg) right no-repeat ;
 }
 
+/*transtions and animations*/
 
+.nav-links a {
+  display: block;
+  justify-content: center;
+  position: relative;
+  margin-inline: 10px;
+  padding-top: 10px;
+
+}
+
+
+.nav-links a::after {
+  left: 0;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 300ms , transform 300ms;
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
 }
