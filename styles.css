@@ -780,8 +780,6 @@ margin-top: 20vw;
   height: 19vw;
 }
 
-
-
 .desktop-geomc {
   grid-area: geom3;
   width: 15vw;
@@ -804,7 +802,6 @@ margin-top: 20vw;
   padding-top: 10px;
 
 }
-
 
 .nav-links a::after {
   left: 0;
