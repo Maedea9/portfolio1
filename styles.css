@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin: 20px 20px 50px 0;
+  margin: 30px 20px 50px 0;
 }
 
 .toolbar {
@@ -27,6 +27,22 @@ body {
   background: #fff;
   background-image: url(./images/img1.svg);
   background-repeat: no-repeat;
+}
+
+.nav-links {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-links a {
+  color: #1a2236;
+  text-decoration: none;
+  padding-inline: 10px;
+  padding-top: 10px;
 }
 
 .first-text {
@@ -106,6 +122,10 @@ div.box {
   width: 100%;
 }
 
+.geometrydesktop {
+  display: none;
+}
+
 h2 {
   width: 220px;
   height: 30px;
@@ -154,7 +174,7 @@ li {
   height: auto;
   padding-left: 0;
   column-gap: 10px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .technology-container {
@@ -372,12 +392,6 @@ div.item4 {
   letter-spacing: -0.0525em;
 }
 
-/* form,
-.input-label {
-  display: flex;
-  flex-direction: column;
-} */
-
 .container-contact-me {
   display: flex;
   flex-direction: column;
@@ -514,8 +528,6 @@ div.item4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* height: 150px; */
   background: #1a2236;
   width: 100%;
 }
@@ -558,4 +570,265 @@ div.item4 {
   margin-left: 12px;
   margin-right: 10px;
   cursor: pointer;
+}
+
+/* Desktop version starts here */
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #dadada;
+  }
+
+  .container-heading {
+    background-image: none;
+  }
+
+  .fa-bars::before {
+    display: none;
+  }
+
+  .geometrybottom {
+    display: none;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 16px;
+    width: 46%;
+    right: 0;
+    padding-bottom: 150px;
+    background: url(images/image_dots.svg) right bottom no-repeat;
+    background-size: calc(100% / 4);
+    margin: 0;
+  }
+
+  .geometrydesktop {
+    display: inline-block;
+    justify-content: flex-end;
+    width: 56vw;
+    height: calc(56vw * 1.249);
+    background: url(images/image-geometry_1.svg) right no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: calc(35vw / 4);
+    padding-top: 50px;
+  }
+
+  .first-text {
+    width: 76%;
+  }
+
+  a.button1 {
+    width: 60%;
+  }
+
+  #intro {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .projects {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "project-title w w w"
+      "w1 geom geom w4w5"
+      "w2 w2 geom2 geom2"
+      "geom3 geom3 w3 w3";
+    margin-top: 90px;
+  }
+
+  .projects > .grid-area1 {
+    grid-area: project-title;
+    transform: rotate(-90deg);
+    height: 100px;
+    padding-top: 0;
+    padding-bottom: 20vw;
+    margin-top: 0;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    background: url(images/image_dots1.svg) bottom right no-repeat;
+    background-size: 9vw;
+    width: fit-content;
+  }
+
+  .grid-area1 > h2 {
+    font-size: 5vw;
+  }
+
+  .projects > .w {
+    grid-area: w;
+    width: 50vw;
+
+    /* height: 20vw; */
+  }
+
+  .technology-container {
+    padding-bottom: 20px;
+  }
+
+  .item4 a {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .image1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .image2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .works {
+    background-color: #fff;
+  }
+
+  .work-description {
+    display: var(--flex);
+    width: 100%;
+    height: 0%;
+    visibility: hidden;
+    transform: translateY(100%);
+    position: absolute;
+    background-color: #1a2236;
+  }
+
+  .works:hover {
+    transform: scale(1);
+    z-index: 0;
+  }
+
+  .works:hover > .work-description {
+    visibility: visible;
+    height: auto;
+    transform: translateY(100%);
+
+    /* transition: ease-out;
+  transition-duration: 200ms; */
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .projects > .w1 {
+    grid-area: w1;
+    width: 33vw;
+
+    /* height: 36vw; */
+    padding-top: 0;
+    margin-top: 60px;
+  }
+
+  .desktop-geoma {
+    grid-area: geom;
+    width: 100%;
+    background: url(images/image-geometry_2.svg) no-repeat;
+    background-size: 30vw;
+    height: 25vw;
+  }
+
+  .projects > .w2 {
+    grid-area: w2;
+    width: 51vw;
+
+    /* height: 32vw; */
+    margin-bottom: 0;
+  }
+
+  .projects > .w3 {
+    grid-area: w3;
+    width: 30vw;
+  }
+
+  .projects > .w4 {
+    grid-area: w4w5;
+    width: 100%;
+
+    /* height: 18vw; */
+    margin-top: 20vw;
+  }
+
+  .projects > .w5 {
+    grid-area: w4w5;
+    width: 100%;
+
+    /* height: 31vw; */
+    margin-bottom: 18.5vw;
+  }
+
+  .desktop-geomb {
+    grid-area: geom2;
+    width: 100%;
+    background: url(images/image-geometry_3.svg) no-repeat;
+    background-size: 30vw;
+    height: 19vw;
+  }
+
+  .desktop-geomc {
+    grid-area: geom3;
+    width: 15vw;
+    background: url(images/image-geometry_5.svg) no-repeat;
+  }
+
+  .desktop-geomd {
+    grid-area: geom3;
+    width: 40vw;
+    background: url(images/image-geometry_4.svg) right no-repeat;
+  }
+
+  /* transtions and animations */
+
+  .nav-links a {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-inline: 10px;
+    padding-top: 10px;
+  }
+
+  .nav-links a::after {
+    left: 0;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .nav-links a:hover::after,
+  .nav-links a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+  }
+
+  .social-links:hover {
+    transform: scale(1.5);
+  }
 }
