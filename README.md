@@ -80,6 +80,11 @@ To run the project, execute the "index.html" file in your browser
 - Twitter: [@MelanieCascant6](https://twitter.com/MelanieCascant6)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/melanie-cascante-938a93228/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Work Section]**
+- [ ] **[About me Section]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -95,6 +100,7 @@ If you like this project you can follow my work through my social networks
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse, my Coding partner, Standup Team and Morning Sessions Team for supporting me.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
