@@ -679,8 +679,6 @@ div.item4 {
     grid-area: w;
     width: 64vw;
     margin-inline: -25vw;
-    /*transform: translateX(-20vw)*/
-     /*height: auto;*/
   }
 
   .technology-container {
@@ -706,12 +704,16 @@ div.item4 {
     background-color: #fff;
   }
 
-  .work-description {
+  .works {
+    background-color: #fff;
+  }
+
+ .work-description {
     display: var(--flex);
     width: 100%;
     height: auto;
     visibility: hidden;
-    transform: translateY(100%);
+    transform: translateY(1);
     position: absolute;
     background-color: #1a2236;
   }
@@ -721,12 +723,12 @@ div.item4 {
     z-index: 0;
   }
 
-  .works:hover > .work-description {
+  .works:hover > .work-description, .works:focus {
     visibility: visible;
-    height: auto;
-    transform: translateY(100%);
-    /*transition: ease-out;
-  transition-duration: 200ms; */
+    margin-top: -10vw;
+    height: 18vw;
+    transform: translateY(22vw);
+    transition: ease-in 300ms;
   }
 
   h3 {
@@ -776,7 +778,7 @@ div.item4 {
 
   .projects > .w5 {
     grid-area: w4w5;
-    width: 25vw;
+    width: 26.7vw;
     margin-bottom: 18.5vw;
   }
 
