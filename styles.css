@@ -297,7 +297,7 @@ div.item4 {
   flex-direction: column;
   padding-top: 50px;
   padding-left: 50px;
-  margin-top: 20px;
+  margin-top: 0px;
   min-width: 289px;
   min-height: 289px;
   font-family: 'Poppins', sans-serif;
@@ -604,24 +604,25 @@ div.item4 {
   .intro-container {
     flex-direction: column;
     align-items: flex-start;
-    /*justify-content: center;*/
+    justify-content: center;
     padding-top: 6vw;
-    padding-inline: 94px;
-    width: 54%;
+    padding-inline: 50px;
+    width: 40%;
     right: 0;
     /*padding-bottom: 50px;*/
     background: url(images/image_dots.svg) right bottom no-repeat;
     background-size: calc(100% / 4);
+    margin: 0;
   
   }
 
   .geometrydesktop {
-    display: inline-block;
+    display: flex;
     justify-content: flex-end;
-    width: 71vw;
-    height: calc(48vw * 1.249);
+    width: 52vw;
+    height: calc(52vw * 1.249);
     background: url(images/image-geometry_1.svg) right no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
   }
 
   h1 {
@@ -728,7 +729,7 @@ div.item4 {
     margin-top: -10vw;
     height: 18vw;
     transform: translateY(22vw);
-    transition: ease-in 300ms;
+    transition: ease-in-out 300ms;
   }
 
   h3 {
@@ -794,15 +795,71 @@ div.item4 {
 
   .desktop-geomc {
     grid-area: geom3;
-    width: 15vw;
+    width: 100%;
     background: url(images/image-geometry_5redblue.svg) no-repeat;
   }
 
   .desktop-geomd {
     grid-area: geom3;
-    width: 59.7vw;
+    width: 100%;
     background: url(images/image-geometry_4yellow.svg) top right no-repeat;
+    margin-inline: -1vw;
   }
+
+  /*About me*/
+
+  #aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 6vw;
+    justify-content: space-between;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .about-title {
+    margin-top: 3vw;
+    font-size: 6vw;
+  }
+
+  .second-text {
+    width: 100%;
+    height: 23%;
+  }
+  .box {
+    width: 100%;
+  }
+
+  .lfs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    margin: 0;
+    padding-inline: 3vw;
+  }
+
+  .lang {
+  background-size: 30%;
+  }
+
+  .fram {
+    background-size: 30%;
+  }
+
+  .skill1 {
+    background-size: 30%;
+  }
+
+  .about-dots-teal {
+    width: 100%;
+    height: 100%;
+    background: url(images/image_dots_with_teal.svg) bottom right no-repeat;
+  }
+
 
   /* transtions and animations */
 
