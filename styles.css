@@ -422,6 +422,10 @@ div.item4 {
   margin-bottom: 15px;
 }
 
+.desktop-text {
+  display: none;
+}
+
 .input-label {
   display: flex;
   flex-direction: column;
@@ -858,6 +862,70 @@ div.item4 {
     width: 100%;
     height: 100%;
     background: url(images/image_dots_with_teal.svg) bottom right no-repeat;
+  }
+
+  /*Contact me */
+
+  .container-contact-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(images/image-geometry_6.svg) top left no-repeat, url(images/image-geometry_7.svg) bottom right no-repeat;;
+    background-size: 20%;
+   }
+
+  .get-started {
+    font-size: 7vw;
+    margin-inline: 3vw;
+    margin-top: 20vw;
+    margin-bottom: 1.5vw;
+    width: fit-content;
+  }
+
+  .third-text {
+    display: none;
+  }
+
+  .desktop-text {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  margin-inline: 3vw;
+  margin-bottom: 6vw;
+  width: 559px;
+  height: 63px;
+  margin-right: -2vw;
+
+  }
+
+  .desktop-contact-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: 2.5vw;
+    margin-right: -2vw;
+  }
+
+ #message-area {
+  width: 100%;
+  height: 140px;
+  margin-left: 2.5vw;
+  }
+
+  .input-textarea {
+    width: 625px;
+    height: 100px;
+  }
+
+  .submit-button {
+    width: 50%;
+    margin-inline: 15vw;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
   }
 
 
