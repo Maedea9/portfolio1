@@ -623,7 +623,6 @@ div.item4 {
   }
 
   .geometrydesktop {
-
     display: flex;
     justify-content: flex-end;
     width: 52vw;
@@ -934,7 +933,7 @@ div.item4 {
     margin-left: 10vw;
     margin-bottom: 2vw;
   }
-  
+
   .nav-links a {
     display: block;
     justify-content: center;
@@ -954,6 +953,7 @@ div.item4 {
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
   }
+
   .nav-links a:hover::after,
   .nav-links a:focus::after {
     opacity: 1;
