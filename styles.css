@@ -607,7 +607,7 @@ div.item4 {
     /*justify-content: center;*/
     padding-top: 6vw;
     padding-inline: 94px;
-    width: 56%;
+    width: 54%;
     right: 0;
     /*padding-bottom: 50px;*/
     background: url(images/image_dots.svg) right bottom no-repeat;
@@ -660,8 +660,8 @@ div.item4 {
     height: calc(39vw / 4);
     padding-top: 0;
     padding-bottom: 1vw;
-    margin-top: 1vw;
-    margin-left: -4vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
     padding-left: 0vw;
     background: url(images/image_dots1.svg) bottom no-repeat;
     background-size: 10vw;
@@ -677,8 +677,8 @@ div.item4 {
 
   .projects > .w {
     grid-area: w;
-    width: 63vw;
-    margin-inline: -33.5vw;
+    width: 64vw;
+    margin-inline: -25vw;
     /*transform: translateX(-20vw)*/
      /*height: auto;*/
   }
@@ -740,37 +740,38 @@ div.item4 {
 
   .projects > .w1 {
     grid-area: w1;
-    width: 35.8vw;
-    /* height: 36vw; */
+    width: 36vw;
     padding-top: 0;
-    margin-top: 55px;
+    margin-top: 5vw;
+    margin-bottom: -1vw;
   }
 
   .desktop-geoma {
     grid-area: geom;
     background: url(images/image-geometry_2.svg) no-repeat;
-    background-size: 37.7vw;
-    height: 25vw;
-    margin-inline: -32.8vw;
+    background-size: 36vw;
+    height: 26vw;
+    margin-inline: -24.7vw;
   }
 
   .projects > .w2 {
     grid-area: w2;
-    width: 60.7vw;
+    width: 59.7vw;
     margin-bottom: 0;
-    margin-top: -9.7vw;
+    margin-top: -10vw;
   }
 
   .projects > .w3 {
     grid-area: w3;
-    width: 30vw;
+    width: 27.5vw;
+    margin-inline: -1vw;
     
   }
 
   .projects > .w4 {
     grid-area: w4w5;
-    width: 100%;
-    margin-top: 20vw;
+    width: 26.7vw;
+    margin-top: 19vw;
   }
 
   .projects > .w5 {
@@ -781,22 +782,24 @@ div.item4 {
 
   .desktop-geomb {
     grid-area: geom2;
-    width: 100%;
+    width: 48vw;
     background: url(images/image-geometry_3.svg) no-repeat;
-    background-size: 30vw;
-    height: 19vw;
+    background-size: 38vw;
+    height: 20vw;
+    /*margin-inline: -11.2vw;*/
+    margin-right: -10vw;
   }
 
   .desktop-geomc {
     grid-area: geom3;
     width: 15vw;
-    background: url(images/image-geometry_5.svg) no-repeat;
+    background: url(images/image-geometry_5redblue.svg) no-repeat;
   }
 
   .desktop-geomd {
     grid-area: geom3;
-    width: 40vw;
-    background: url(images/image-geometry_4.svg) right no-repeat;
+    width: 59.7vw;
+    background: url(images/image-geometry_4yellow.svg) top right no-repeat;
   }
 
   /* transtions and animations */
