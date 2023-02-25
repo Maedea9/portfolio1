@@ -83,7 +83,6 @@ div.box {
   padding-right: 16px;
   padding-left: 16px;
   padding-bottom: 10px;
-  margin-inline: 16px;
   color: #fff;
   background: #1a2236;
   height: 50px;
@@ -585,7 +584,7 @@ div.item4 {
 
 @media screen and (min-width: 768px) {
   body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
 
   .nav-links {
@@ -934,7 +933,7 @@ div.item4 {
     margin-left: 10vw;
     margin-bottom: 2vw;
   }
-
+  
   .nav-links a {
     display: block;
     justify-content: center;
