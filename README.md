@@ -3,6 +3,9 @@ Microverse day 3 project
 <a name="readme-top"></a>
 
 <div align="center">
+  
+  <h3><b>Portfolio</b></h3>
+
 </div>
 
 # 📗 Table of Contents
@@ -14,7 +17,6 @@ Microverse day 3 project
   - [Setup](#setup)
   - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -56,11 +58,17 @@ To run the project, execute the "index.html" file in your browser
 
 ### Key Features <a name="key-features"></a>
 
-> An exercise to create a portofolio mobile first aproach.
+> An exercise to create a portofolio mobile first aproach with media queries for desktop version.
 
 - **[HTML and CSS Linters]**
 - **[Portfolio in html]**
 - **[Style in CSS]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://mcportfoliolivedemo.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,14 +99,13 @@ If you like this project you can follow my work through my social networks
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse, my Learning partners for supporting me.
+I would like to thank Microverse, my Coding partner, Standup Team and Morning Sessions Team for supporting me.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

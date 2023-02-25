@@ -297,7 +297,7 @@ div.item4 {
   flex-direction: column;
   padding-top: 50px;
   padding-left: 50px;
-  margin-top: 20px;
+  margin-top: 0;
   min-width: 289px;
   min-height: 289px;
   font-family: 'Poppins', sans-serif;
@@ -422,6 +422,10 @@ div.item4 {
   margin-bottom: 15px;
 }
 
+.desktop-text {
+  display: none;
+}
+
 .input-label {
   display: flex;
   flex-direction: column;
@@ -544,11 +548,15 @@ div.item4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   margin-left: 16px;
-  margin-right: 10px;
+  margin-right: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #92dcdc;
+  text-decoration: none;
+  width: 100%;
+  padding-right: 6vw;
+  background: url(images/ic_link_teal.svg) bottom right no-repeat;
 }
 
 .social-icons {
@@ -605,26 +613,26 @@ div.item4 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-inline: 16px;
-    width: 46%;
+    padding-top: 6vw;
+    padding-inline: 50px;
+    width: 40%;
     right: 0;
-    padding-bottom: 150px;
     background: url(images/image_dots.svg) right bottom no-repeat;
     background-size: calc(100% / 4);
     margin: 0;
   }
 
   .geometrydesktop {
-    display: inline-block;
+    display: flex;
     justify-content: flex-end;
-    width: 56vw;
-    height: calc(56vw * 1.249);
+    width: 52vw;
+    height: calc(52vw * 1.249);
     background: url(images/image-geometry_1.svg) right no-repeat;
     background-size: cover;
   }
 
   h1 {
-    font-size: calc(35vw / 4);
+    font-size: calc(34vw / 4);
     padding-top: 50px;
   }
 
@@ -656,26 +664,27 @@ div.item4 {
   .projects > .grid-area1 {
     grid-area: project-title;
     transform: rotate(-90deg);
-    height: 100px;
+    height: calc(39vw / 4);
     padding-top: 0;
-    padding-bottom: 20vw;
+    padding-bottom: 1vw;
     margin-top: 0;
-    margin-left: 5vw;
-    padding-left: 5vw;
-    background: url(images/image_dots1.svg) bottom right no-repeat;
-    background-size: 9vw;
-    width: fit-content;
+    margin-left: 0;
+    padding-left: 0;
+    background: url(images/image_dots1.svg) bottom no-repeat;
+    background-size: 10vw;
+    width: 100%;
   }
 
   .grid-area1 > h2 {
-    font-size: 5vw;
+    font-size: 6vw;
+    margin-top: -20vw;
+    margin-left: 6vw;
   }
 
   .projects > .w {
     grid-area: w;
-    width: 50vw;
-
-    /* height: 20vw; */
+    width: 64vw;
+    margin-inline: -25vw;
   }
 
   .technology-container {
@@ -687,16 +696,6 @@ div.item4 {
     justify-content: flex-start;
   }
 
-  .image1 {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .image2 {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
   .works {
     background-color: #fff;
   }
@@ -704,9 +703,9 @@ div.item4 {
   .work-description {
     display: var(--flex);
     width: 100%;
-    height: 0%;
+    height: auto;
     visibility: hidden;
-    transform: translateY(100%);
+    transform: translateY(1);
     position: absolute;
     background-color: #1a2236;
   }
@@ -716,13 +715,13 @@ div.item4 {
     z-index: 0;
   }
 
-  .works:hover > .work-description {
+  .works:hover > .work-description,
+  .works:focus {
     visibility: visible;
-    height: auto;
-    transform: translateY(100%);
-
-    /* transition: ease-out;
-  transition-duration: 200ms; */
+    margin-top: -10vw;
+    height: 18vw;
+    transform: translateY(22vw);
+    transition: ease-in-out 300ms;
   }
 
   h3 {
@@ -736,71 +735,204 @@ div.item4 {
 
   .projects > .w1 {
     grid-area: w1;
-    width: 33vw;
-
-    /* height: 36vw; */
+    width: 36vw;
     padding-top: 0;
-    margin-top: 60px;
+    margin-top: 5vw;
+    margin-bottom: -1vw;
   }
 
   .desktop-geoma {
     grid-area: geom;
-    width: 100%;
     background: url(images/image-geometry_2.svg) no-repeat;
-    background-size: 30vw;
-    height: 25vw;
+    background-size: 36vw;
+    height: 26vw;
+    margin-inline: -24.7vw;
   }
 
   .projects > .w2 {
     grid-area: w2;
-    width: 51vw;
-
-    /* height: 32vw; */
+    width: 59.7vw;
     margin-bottom: 0;
+    margin-top: -10vw;
   }
 
   .projects > .w3 {
     grid-area: w3;
-    width: 30vw;
+    width: 27.5vw;
+    margin-inline: -1vw;
   }
 
   .projects > .w4 {
     grid-area: w4w5;
-    width: 100%;
-
-    /* height: 18vw; */
-    margin-top: 20vw;
+    width: 26.7vw;
+    margin-top: 19vw;
   }
 
   .projects > .w5 {
     grid-area: w4w5;
-    width: 100%;
-
-    /* height: 31vw; */
+    width: 26.7vw;
     margin-bottom: 18.5vw;
   }
 
   .desktop-geomb {
     grid-area: geom2;
-    width: 100%;
+    width: 48vw;
     background: url(images/image-geometry_3.svg) no-repeat;
-    background-size: 30vw;
-    height: 19vw;
+    background-size: 38vw;
+    height: 20vw;
+    margin-right: -10vw;
   }
 
   .desktop-geomc {
     grid-area: geom3;
-    width: 15vw;
-    background: url(images/image-geometry_5.svg) no-repeat;
+    width: 100%;
+    background: url(images/image-geometry_5redblue.svg) no-repeat;
   }
 
   .desktop-geomd {
     grid-area: geom3;
-    width: 40vw;
-    background: url(images/image-geometry_4.svg) right no-repeat;
+    width: 100%;
+    background: url(images/image-geometry_4yellow.svg) top right no-repeat;
+    margin-inline: -1vw;
   }
 
-  /* transtions and animations */
+  /* About me */
+
+  #aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 6vw;
+    justify-content: space-between;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .about-title {
+    margin-top: 3vw;
+    font-size: 6vw;
+  }
+
+  .second-text {
+    width: 100%;
+    height: 23%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .lfs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    margin: 0;
+    padding-inline: 3vw;
+  }
+
+  .lang {
+    background-size: 30%;
+  }
+
+  .fram {
+    background-size: 30%;
+  }
+
+  .skill1 {
+    background-size: 30%;
+  }
+
+  .about-dots-teal {
+    width: 100%;
+    height: 100%;
+    background: url(images/image_dots_with_teal.svg) bottom right no-repeat;
+  }
+
+  /* Contact me */
+
+  .container-contact-me {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/image-geometry_6.svg) top left no-repeat, url(images/image-geometry_7.svg) bottom right no-repeat;
+    background-size: 20%, 20%;
+    padding-bottom: 2vw;
+  }
+
+  .get-started {
+    font-size: 7vw;
+    margin-inline: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 1.5vw;
+    width: fit-content;
+  }
+
+  .third-text {
+    display: none;
+  }
+
+  .desktop-text {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    margin-inline: 2vw;
+    margin-bottom: 2vw;
+    width: 559px;
+    height: 63px;
+    margin-right: 0;
+  }
+
+  .desktop-contact-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 0.5vw;
+  }
+
+  #message-area {
+    width: 100%;
+    height: 140px;
+    margin-left: 0.5vw;
+  }
+
+  .input-textarea {
+    width: 625px;
+    height: 100px;
+  }
+
+  .submit-button {
+    width: 40%;
+    margin-inline: calc(60% / 2);
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+  }
+
+  /* Social media */
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin-right: 9vw;
+  }
+
+  .get-my-resume {
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+  }
 
   .nav-links a {
     display: block;

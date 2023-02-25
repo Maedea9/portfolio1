@@ -156,14 +156,16 @@
         </article>
         </section>
 
-        <section class="aboutme">
-          <h2>About</h2>
+        <section id="aboutme">
+          <div class="about">
+          <h2 class="about-title">About</h2>
           <p class="second-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod.</p>
         
-        <div class="box">
+          <div class="box">
           <a href="#" class="button1">
             <i class="download"></i>Get my CV <i class="fa-solid fa-arrow-down-long"></i></a>
+          </div>
         </div>
         
         <ul class="lfs-container">
@@ -194,6 +196,7 @@
               <li class="skill2">&#x2022;  Terminal</li>
            </ul>
         </li>
+        <div class="about-dots-teal"></div>
         </ul>
         </section>
 
@@ -201,15 +204,18 @@
           <div class="container-contact-me">
             <h2 class="get-started">Get started</h2>
             <p class="third-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <p class="desktop-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <form action="https://formspree.io/f/xlekdqzj" method="post">
-              <div class="input-label">
+              <ul class="desktop-contact-ul">
+              <li class="input-label">
                 <label class="label">Your name</label>
                 <input class="input" name="name" id="name" type="text" maxlength="30" placeholder="Your name" required> 
-              </div>
-              <div class="input-label">
+              </li>
+              <li class="input-label">
                 <label class="label">Your Email</label>
               <input class="input" name="Email" id="email" type="email" placeholder="Your email" required>
-              </div>
+              </li>
+            </ul>
               <div class="input-label" id="message-area">
                 <label class="label" id="message-label"></label>
               <textarea class= "input-textarea" name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
@@ -218,10 +224,13 @@
                 <p class="text-a">Start Collaboration</p>
               </button>
             </form>
-            <footer class="social-media">
+          </div>
+        </section>
+            
+
+            <section class="social-media">
               <div class="get-resume">
                 <a href="#" class="get-my-resume">Get my Resume</a>
-                <img src="images/ic_link_teal.svg" a href="#" class="button1"></a>
               </div>
               <div class="social-icons">
               <ul>
@@ -234,7 +243,7 @@
               </ul>
             </div>
           </div>
-            </footer>
+        </section>
 
       </section>
 
