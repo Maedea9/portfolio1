@@ -68,7 +68,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mcportfoliolivedemo.netlify.app/)
+- [Live Demo Link](https://maedea9.github.io/portfolio1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
