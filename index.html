@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Melanie Front-End developer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +24,8 @@
             <li ><a href="#">About</a></li>
             <li ><a href="#">Contact</a></li>
           </ul>
+           </div>
+         </div>
       </header>
 
       <section id="intro">
@@ -46,7 +48,7 @@
         </div>
           
           <article class="works w">
-            <img class="image1" src="images/Rectangle 21.png" width="100%">
+            <img class="image1" src="images/Rectangle 21.png" alt="project-1" width="100%">
              <div class="work-description">
             <h3>Project 1</h3>
         
@@ -64,7 +66,7 @@
 
         
         <article class="works w1">
-          <img class="image2" src="images/Rectangle 21v.png" width="100%" >
+          <img class="image2" src="images/Rectangle 21v.png" alt="project-2" width="100%" >
           <div class="work-description">
           <h3>Project 2</h3>
         
@@ -83,7 +85,7 @@
         <div class="desktop-geoma"></div>
 
         <article class="works w2">
-          <img class="image3"  src="images/Rectangle 21v2.png" width="100%">
+          <img class="image3"  src="images/Rectangle 21v2.png" alt="project-3" width="100%">
           <div class="work-description">
           <h3>Project 3</h3>
         
@@ -93,7 +95,7 @@
             <li class="item3">JavaScript</li>
           </ul>
           <div class="item4">
-            <a href="https://github.com/Maedea9/Project-mobile-first" class="button">
+            <a href="#" class="button">
               <i class="see-project"></i>See this project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
           </div>
@@ -103,7 +105,7 @@
         <div class="desktop-geomd"></div>
 
           <article class="works w3">
-            <img class="image4" src="images/Rectangle 21 (1).png" width="100%">
+            <img class="image4" src="images/Rectangle 21 (1).png" alt="project-4" width="100%">
             <div class="work-description">
             <h3>Project 4</h3>
         
@@ -113,14 +115,14 @@
             <li class="item3">JavaScript</li>
           </ul>
           <div class="item4">
-            <a href="https://github.com/Maedea9/Project-mobile-first" class="button">
+            <a href="#" class="button">
               <i class="see-project"></i>See this project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
         </article>
 
           <article class="works w4">
-            <img class="image5" src="images/Rectangle 21 (2).png" width="100%">
+            <img class="image5" src="images/Rectangle 21 (2).png" alt="project-5" width="100%">
             <div class="work-description">
             <h3>Project 5</h3>
         
@@ -130,7 +132,7 @@
             <li class="item3">JavaScript</li>
           </ul>
           <div class="item4">
-            <a href="https://github.com/Maedea9/Project-mobile-first" class="button">
+            <a href="#" class="button">
               <i class="see-project"></i>See this project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
             </div>
@@ -139,7 +141,7 @@
         <div class="desktop-geomb"></div>
 
           <article class="works w5">
-            <img class="image6" src="images/Rectangle 21 (3).png" width="100%">
+            <img class="image6" src="images/Rectangle 21 (3).png" alt="project-6" width="100%">
             <div class="work-description">
             <h3>Project 6</h3>
         
@@ -149,7 +151,7 @@
             <li class="item3">JavaScript</li>
           </ul>
           <div class="item4">
-            <a href="https://github.com/Maedea9/Project-mobile-first" class="button">
+            <a href="#" class="button">
               <i class="see-project"></i>See this project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
             </div>
@@ -195,9 +197,9 @@
               <li class="skill2">&#x2022;  GitLab</li>
               <li class="skill2">&#x2022;  Terminal</li>
            </ul>
-        </li>
-        <div class="about-dots-teal"></div>
-        </ul>
+             </li>
+               <div class="about-dots-teal"></div>
+             </ul>
         </section>
 
         <section aria-label="Contact-me">
@@ -208,21 +210,19 @@
             <form action="https://formspree.io/f/xlekdqzj" method="post">
               <ul class="desktop-contact-ul">
               <li class="input-label">
-                <label class="label">Your name</label>
+                <label for="name" class="label">Your name</label>
                 <input class="input" name="name" id="name" type="text" maxlength="30" placeholder="Your name" required> 
               </li>
               <li class="input-label">
-                <label class="label">Your Email</label>
+                <label for="email" class="label">Your Email</label>
               <input class="input" name="Email" id="email" type="email" placeholder="Your email" required>
               </li>
             </ul>
               <div class="input-label" id="message-area">
-                <label class="label" id="message-label"></label>
+                <label for="message" class="label" id="message-label"></label>
               <textarea class= "input-textarea" name="message" id="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
               </div>
-              <button class="submit-button" id="form-submit" type="submit">
-                <p class="text-a">Start Collaboration</p>
-              </button>
+              <button class="submit-button" id="form-submit" type="submit">Start Collaboration</button>
             </form>
           </div>
         </section>
@@ -234,18 +234,51 @@
               </div>
               <div class="social-icons">
               <ul>
-                <li class="social-links"><img src="images/ic_stackoverflow.svg" a href="#" class="button3"></a></li>
-                <li class="social-links"><img src="images/ic_github.svg" a href="#" class="button3"></a></li>
-                <li class="social-links"><img src="images/ic_twitter.svg" a href="#" class="button3"></a></li>
-                <li class="social-links"><img src="images/ic_linkedin.svg" a href="#" class="button3"></a></li>
-                <li class="social-links"><img src="images/ic_medium.svg" a href="#" class="button3"></a></li>
-                <li class="social-links"><img src="images/ic_angellist.svg" a href="#" class="button3"></a></li>
+                <li>
+                    <a class="social-links" href="#">
+                      <i  class="button3">
+                        <img src="images/ic_stackoverflow.svg" alt="Stack overflow">
+                      </i>
+                    </a>
+                  </li>
+                <li>
+                  <a class="social-links"  href="#">
+                    <i class="button3">
+                      <img src="images/ic_github.svg" alt="Github">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-links"  href="#">
+                    <i class="button3">
+                      <img src="images/ic_twitter.svg" alt="Twitter">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-links" href="#">
+                    <i class="button3">
+                      <img src="images/ic_linkedin.svg" alt="Linkedin">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-links" href="#">
+                    <i class="button3">
+                      <img src="images/ic_medium.svg" alt="Medium">
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-links" href="#">
+                    <i class="button3">
+                      <img src="images/ic_angellist.svg" alt="Angellist">
+                    </i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </section>
-
-      </section>
-
 </body>
 </html>

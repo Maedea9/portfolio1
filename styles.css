@@ -504,28 +504,22 @@ div.item4 {
   background: #1a2236;
   margin-bottom: 50px;
   padding-inline: 16px;
+  padding-top: 15px;
   width: 336px;
-}
-
-.submit-button:hover {
-  background: #fff;
-  border: 1px solid #1a2236;
-  cursor: pointer;
-}
-
-.text-a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 12px;
   text-align: center;
-  height: 112px;
   color: #fff;
 }
 
-.text-a:hover {
+.submit-button:hover {
   color: #1a2236;
+  background: #fff;
+  border: 1px solid #1a2236;
+  cursor: pointer;
 }
 
 .social-media {
