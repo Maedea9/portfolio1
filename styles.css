@@ -456,9 +456,9 @@ div.item4 {
 .input {
   border: 0;
   outline: 0;
-  margin-left: 16px;
+  padding-left: 16px;
   height: 84px;
-  width: 288px;
+  width: 315px;
 }
 
 .input:focus {
@@ -472,7 +472,7 @@ div.item4 {
 .input-textarea {
   border: 0;
   outline: 0;
-  margin-left: 16px;
+  margin-left: 10px;
   width: 260px;
   height: 84px;
   font-family: 'Poppins', sans-serif;
@@ -493,6 +493,7 @@ div.item4 {
 
 #message-area {
   height: 112px;
+  margin-top: 16px;
 }
 
 .submit-button {
@@ -857,6 +858,7 @@ div.item4 {
     background: url(images/image-geometry_6.svg) top left no-repeat, url(images/image-geometry_7.svg) bottom right no-repeat;
     background-size: 20%, 20%;
     padding-bottom: 2vw;
+    background-color: #F9F9FA;
   }
 
   .get-started {
@@ -879,7 +881,7 @@ div.item4 {
     line-height: 21px;
     color: #1a2236;
     margin-inline: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
     width: 559px;
     height: 63px;
     margin-right: 0;
@@ -899,8 +901,12 @@ div.item4 {
   }
 
   .input-textarea {
-    width: 625px;
+    width: 95%;
     height: 100px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 16px;
   }
 
   .submit-button {
@@ -908,6 +914,27 @@ div.item4 {
     margin-inline: calc(60% / 2);
     margin-top: 3vw;
     margin-bottom: 4vw;
+  }
+
+  .input-label {
+  height: 52px;
+  width: 335px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  background: #fff;
+  border-radius: 4px;
+  background: none;
+  }
+
+  .label {
+    height: 15px;
+    width: auto;
+    margin-top: -28px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+    color: #7d7c84;
+    background: none;
+    padding-bottom: 10px;
   }
 
   /* Social media */
