@@ -7,8 +7,31 @@ body {
 .ic_menu {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  margin: 30px 20px 50px 0;
+  align-items: center;
+  /*padding: 30px 20px 50px 0;*/
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.fa-xmark {
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
+  opacity: 0;
+  width: 0px;
+  }
+
+.show {
+display: block;
+opacity: 1;
+width: 100%;
+}
+
+.check,
+.check * {
+  border: solid 1px black;
 }
 
 .toolbar {
