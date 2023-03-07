@@ -16,7 +16,6 @@ document.documentElement.addEventListener('click', (e) => {
     menuIcon.classList.toggle('hide');
     hamburguerIcon.classList.remove('hide');
     closeIcon.classList.remove('show');
-
   }
   if (e.target.matches('#link2')) {
     menuIcon.classList.toggle('hide');
