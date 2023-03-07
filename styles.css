@@ -20,13 +20,13 @@ body {
 .hide {
   display: none;
   opacity: 0;
-  width: 0px;
-  }
+  width: 0;
+}
 
 .show {
-display: block;
-opacity: 1;
-width: 100%;
+  display: block;
+  opacity: 1;
+  width: 100%;
 }
 
 .check,
@@ -85,11 +85,9 @@ width: 100%;
   background-size: contain;
 }
 
-
-
 .menu-mobile > a {
   padding-bottom: 2rem;
-  text-decoration: none ;
+  text-decoration: none;
   color: #1a2236;
 }
 
@@ -632,6 +630,10 @@ div.item4 {
     overflow-x: hidden;
   }
 
+  .fa-xmark {
+    color: #fff;
+  }
+
   .nav-links {
     display: block;
   }
@@ -640,6 +642,10 @@ div.item4 {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #dadada;
+  }
+
+  .menu-mobile {
+    display: none;
   }
 
   .container-heading {
@@ -908,7 +914,7 @@ div.item4 {
     background: url(images/image-geometry_6.svg) top left no-repeat, url(images/image-geometry_7.svg) bottom right no-repeat;
     background-size: 20%, 20%;
     padding-bottom: 2vw;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   .get-started {
@@ -953,7 +959,7 @@ div.item4 {
   .input-textarea {
     width: 95%;
     height: 100px;
-    margin-left: 0px;
+    margin-left: 0;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 16px;
@@ -967,13 +973,13 @@ div.item4 {
   }
 
   .input-label {
-  height: 52px;
-  width: 335px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  background: #fff;
-  border-radius: 4px;
-  background: none;
+    height: 52px;
+    width: 335px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    background: #fff;
+    border-radius: 4px;
+    /* background: none; */
   }
 
   .label {
