@@ -1,5 +1,5 @@
 # My Portfolio
-Microverse day 3 project
+Microverse Project
 <a name="readme-top"></a>
 
 <div align="center">
@@ -22,9 +22,9 @@ Microverse day 3 project
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Project-mobile-first] <a name="about-project"></a>
+# 📖 [Portfolio - Mobile Menu] <a name="about-project"></a>
 
-**[Project-mobile-first]** is a second project for the full time program in Microverse.
+**[Portfolio - Mobile menu]** is a project for the full time program in Microverse in which we apply JavaScript best practices.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,8 +32,9 @@ Microverse day 3 project
 + Git
 + HTML
 + CSS
++ JavaScript
 
-> Used HTML and CSS to work on this project and Linters configuration provided by Microverse. 
+> Used HTML, CSS, JavaScript to work on this project and Linters configuration provided by Microverse. 
 
 <details>
   <summary>Portfolio</summary>
@@ -58,11 +59,20 @@ To run the project, execute the "index.html" file in your browser
 
 ### Key Features <a name="key-features"></a>
 
-> An exercise to create a portofolio mobile first aproach with media queries for desktop version.
+> An exercise to create a portofolio mobile first aproach with media queries for desktop version and JavaScript.
 
-- **[HTML and CSS Linters]**
-- **[Portfolio in html]**
-- **[Style in CSS]**
+- **[Use of Linters]**
+- **[Mobile first approach]**
+- **[Navigation and mobile menu]**
+- **[Hero Section]**
+- **[Project Section]**
+- **[About Section]**
+- **[Contact form]**
+- **[Footer Section with Social Media links]**
+- **[Desktop Version]**
+- **[Deploy using Github Pages]**
+- **[Accesibility tested]**
+- **[Mobile menu implemented witj JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,8 +94,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Work Section]**
-- [ ] **[About me Section]**
+- [ ] **[Work Section descriptions in pop-up windows]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
