@@ -92,6 +92,11 @@ To run the project, execute the "index.html" file in your browser
 - Twitter: [@MelanieCascant6](https://twitter.com/MelanieCascant6)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/melanie-cascante-938a93228/)
 
+👤 **benja27**
+
+- GitHub: [@maedea9](https://github.com/benja27)
+
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Work Section descriptions in pop-up windows]**
