@@ -94,7 +94,15 @@ To run the project, execute the "index.html" file in your browser
 
 👤 **benja27**
 
-- GitHub: [@maedea9](https://github.com/benja27)
+- GitHub: [@benja27](https://github.com/benja27)
+
+👤 **danifromecuador**
+
+- GitHub: [@danifromecuador](https://github.com/danifromecuador)
+
+👤 **oscar-byte15**
+
+- GitHub: [@oscar-byte15](https://github.com/oscar-byte15)
 
 
 ## 🔭 Future Features <a name="future-features"></a>
