@@ -1,21 +1,27 @@
-let eventMobile = document.querySelector('.ic_menu')
+const eventMobile = document.querySelector('.ic_menu');
 
-let target1 = document.querySelector('.fa-sharp')
-let target2 = document.querySelector('.fa-xmark')
+const target1 = document.querySelector('.fa-sharp');
+const target2 = document.querySelector('.fa-xmark');
 
-let modal = document.querySelector('.menu-mobile')
+const modal = document.querySelector('.menu-mobile');
 
-let helloMobile = document.getElementById('#link1')*/
-/*let helloMobile = document.querySelector('.menu-mobile a')*/
-let portfolioMobile = document.querySelector()
+eventMobile.addEventListener('click', () => {
+  target1.classList.toggle('hide');
+  target2.classList.toggle('show');
+  modal.classList.toggle('hide');
+});
 
-eventMobile.addEventListener('click', function(){ 
-  target1.classList.toggle('hide')
-  target2.classList.toggle('show')
-  modal.classList.toggle('hide')
-})
-
-helloMobile.addEventListener('click', function(e){
-  modal.classList.toggle('hide')
-  console.log(e.target);
-})
+document.documentElement.addEventListener('click', (e) => {
+  if (e.target.matches('#link1')) {
+    modal.classList.toggle('hide');
+  }
+  if (e.target.matches('#link2')) {
+    modal.classList.toggle('hide');
+  }
+  if (e.target.matches('#link3')) {
+    modal.classList.toggle('hide');
+  }
+  if (e.target.matches('#link4')) {
+    modal.classList.toggle('hide');
+  }
+});
