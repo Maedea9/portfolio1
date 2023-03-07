@@ -12,19 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header aria-label="Heading">
+    <header aria-label="Heading" class="">
         <div class="container-heading">
          <div class="toolbar">
           <nav class="ic_menu">
             <i class="fa-sharp fa-solid fa-bars fa-xl"></i>
+            <i class="fa-solid fa-xmark hide"></i>
           </nav>
           <ul class="nav-links">
-            <li ><a href="#">Hello</a></li>
-            <li ><a href="#">Portfolio</a></li>
-            <li ><a href="#">About</a></li>
-            <li ><a href="#">Contact</a></li>
+            <li ><a href="#intro">Hello</a></li>
+            <li ><a href="#project-title">Portfolio</a></li>
+            <li ><a href="#aboutme">About</a></li>
+            <li ><a href="#Contact-me">Contact</a></li>
           </ul>
            </div>
+
+           <nav class="menu-mobile hide">
+            <a id="link1" href="#intro">Hello</a>
+            <a id="link2" href="#project-title">Portfolio</a>
+            <a id= "link3" href="#aboutme">About</a>
+            <a id= "link4" href="#Contact-me">Contact</a>
+           </nav>
          </div>
       </header>
 
@@ -202,7 +210,7 @@
              </ul>
         </section>
 
-        <section aria-label="Contact-me">
+        <section id="Contact-me">
           <div class="container-contact-me">
             <h2 class="get-started">Get started</h2>
             <p class="third-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
@@ -280,6 +288,7 @@
             </div>
           </div>
         </section>
+        <script src="mobile.js"></script>
 
 </body>
 </html>
