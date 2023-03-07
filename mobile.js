@@ -1,27 +1,36 @@
-const eventMobile = document.querySelector('.ic_menu');
+const mobileMenu = document.querySelector('.ic_menu');
 
-const target1 = document.querySelector('.fa-sharp');
-const target2 = document.querySelector('.fa-xmark');
+const hamburguerIcon = document.querySelector('.fa-sharp');
+const closeIcon = document.querySelector('.fa-xmark');
 
-const modal = document.querySelector('.menu-mobile');
+const menuIcon = document.querySelector('.menu-mobile');
 
-eventMobile.addEventListener('click', () => {
-  target1.classList.toggle('hide');
-  target2.classList.toggle('show');
-  modal.classList.toggle('hide');
+mobileMenu.addEventListener('click', () => {
+  hamburguerIcon.classList.toggle('hide');
+  closeIcon.classList.toggle('show');
+  menuIcon.classList.toggle('hide');
 });
 
 document.documentElement.addEventListener('click', (e) => {
   if (e.target.matches('#link1')) {
-    modal.classList.toggle('hide');
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
+
   }
   if (e.target.matches('#link2')) {
-    modal.classList.toggle('hide');
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
   if (e.target.matches('#link3')) {
-    modal.classList.toggle('hide');
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
   if (e.target.matches('#link4')) {
-    modal.classList.toggle('hide');
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
 });
