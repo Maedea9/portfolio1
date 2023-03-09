@@ -630,17 +630,58 @@ div.item4 {
   position: fixed;
   display: flex;
   flex-direction: column;
+  background-color: red;
+  }
+
+  .pop-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vw;
+    padding: 10px;
+  }
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    align-self: flex-start;
+    font-size: 1.50rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-top: 0vw;
+    margin-left: 16px;
+    color: #1A2236;
+    background-color: white;
+  }
+
+  .close-xbtn {
+   font-size: 50px;
+   margin-right: 20px;
+   margin-bottom: 0vw;
+   width: 40px;
+   height: 40px;
+   border: none;
+   background-color: #fff;
+   z-index: 99;
+   cursor: pointer;
+
+  }
+
+  /*overflow: scroll;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: white;
   font-family: 'Poppins', sans-serif;
-    /*position: fixed;
-    top: 50%;
-    left: 50%;
+
+   /* top: 50%;
+    left: 50%;*/
    /* transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     border: 1px solid black;
@@ -652,54 +693,31 @@ div.item4 {
 }
   
 .pop-work-card :active {
-  /*transform: translate(-50%, -50%) scale(1);*/
-}
-  .pop-work-card .close-xbtn {
-    align-self: flex-end;
-    font-size: 50px;
-   margin-right: 20px;
-   margin-top: 5vw;
-   width: 40px;
-   height: 40px;
-   border: none;
-   background-color: #fff;
-   z-index: 99;
-   cursor: pointer;
+  /*transform: translate(-50%, -50%) scale(1);
+}*/
 
-  }
 
-  .title {
-    align-self: flex-start;
-    font-size: 1.50rem;
-    font-weight: bold;
-    padding: 1px 20px;
-    margin-left: 16px;
-    color: #1A2236;
-    background-color: white;
-  }
-
-  .pop-tech-container {
-   display: flex;
-   flex-direction: row;
+  .pop-tech-container  {
+   margin-left: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 10.3334px;
+   line-height: 27px;
+   color: #1a2236;
   }
 
   .pop-language1,
   .pop-language2,
   .pop-language3 {
-  display: flex;
+  display: inline-block;
+  flex-direction: row;
   justify-content: flex-start;
   align-self: flex-start;
   width: 80px;
-  padding-left: 10px;
-  margin-left: 13px;
   text-align: center;
   background: #fff;
   border: solid #1a2236 1px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 10.3334px;
-  line-height: 27px;
   color: #1a2236;
   }
 
@@ -708,12 +726,17 @@ div.item4 {
    }
 
    .pop-text {
+    font-family: 'Poppins', sans-serif;
     padding: 16px;
    }
 
+   .live-source-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
   .see-live,
    .see-source {   
-    margin-inline: 22vw;
     margin-bottom: 5vw;
     justify-content: center;
     padding: 10px;
@@ -1196,8 +1219,22 @@ div.item4 {
 
   /* pop up window desktop version*/
 
-  .pop-work-card {
+  .dani {
     box-sizing: border-box;
+    
+  }
+
+  /**::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }*/
+
+  .pop-work-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  /* overflow: scroll;*/
     /*position: fixed;
     display: flex;
     flex-direction: column;
@@ -1210,48 +1247,61 @@ div.item4 {
     left: 0;
     background-color: white;
     font-family: 'Poppins', sans-serif;*/
-      position: fixed;
+     /* position: fixed;
       display: flex;
       align-items: center;
+      box-sizing: border-box;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      margin: 5vw;
+      margin: 3vw;
+      margin-bottom: 3vw;
+      margin-right: 3vw;
+      margin-left: 3vw;
       padding: 2vw;
+      padding-top: 7vw;
       border: 1px solid black;
       z-index: 10;
       background-color: white;
-      width: 80%
-      height: 90%;
+      width: 70%
+      height: 90%;*/
       /*max-width: 80%;*/
+  }
+.pop-header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vw;
+    padding: 10px;
   }
     
   .pop-work-card .active {
     /*transform: translate(-50%, -50%) scale(1);*/
   }
     .pop-work-card .close-xbtn {
-      align-self: flex-end;
-      font-size: 50px;
+      /*align-self: flex-end;
+      margin-top: 30vw;*/
+      /*font-size: 50px;
      margin-right: 20px;
-     margin-top: 5vw;
+     margin-top: 6vw;
      width: 40px;
      height: 40px;
      border: none;
      background-color: #fff;
      z-index: 99;
-     cursor: pointer;
+     cursor: pointer;*/
   
     }
   
     .title {
+      display: flex;
       align-self: flex-start;
       font-size: 3vw;
       font-weight: bold;
       padding: 1px 20px;
       margin-left: 16px;
-      color: #1A2236;
-      background-color: white;
+      margin-top: 2vw;
+      margin-right: 75vw;
     }
   
     .pop-tech-container {
@@ -1259,7 +1309,6 @@ div.item4 {
      flex-direction: row;
      align-self: flex-start;
      margin-left: 1.3vw;
-     
     }
   
     .pop-language1,
@@ -1282,55 +1331,65 @@ div.item4 {
   
     .pop-img1 {
       padding: 16px; 
-    
+      width: 60vw;
+      height: auto;
      }
   
      .pop-text {
+      font-size: 20px;
       padding: 16px;
+      width: 60vw;
      }
   
-    .see-live,
-     .see-source {   
-      margin-inline: 22vw;
-      margin-bottom: 5vw;
-      justify-content: center;
-      padding: 10px;
-      width: 60%;
-      font-family:  'Poppins', sans-serif;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 27px;
-      background: #fff;
-      border: solid #1a2236 1px;
-      cursor: pointer;
+     .live-source-btns {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-left: -4vw;
+      width: 60vw;
      }
-  
+    
      .see-live {
+      text-align: start;
+      padding-left: 16px;
+      margin-inline: 2vw;
+      width: 20vw;
       background: url(images/Unionwc.png) right no-repeat; 
-      background-position-x: 40vw;
+      background-position-x: 15vw;
      }
   
      .see-source {
+      text-align: start;
+      padding-left: 16px;
+      width: 20vw;
       background: url(images/ic_github_white.png) right no-repeat;
-      background-position-x: 40vw;
+      background-position-x: 15vw;
+     }
+
+     .see-live:hover {
+      background-color: #1A2236;
+      color: white;
+     }
+
+     .see-source:hover {
+      background-color: #1A2236;
+      color: white;
      }
   
      .pop-desktop-btns {
       display: flex;
-      justify-content: space-around;
+      flex-direction: row;
      }
   
      .previous-work,
-     .next-work {   
-      margin-inline: 22vw;
+     .next-work {  
+      padding: 20px;
       margin-bottom: 5vw;
-      justify-content: center;
-      padding: 10px;
-      margin-inline: 10px;
-      width: 60%;
+      margin-inline: 13vw;
+      width: fit-content;
       font-family:  'Poppins', sans-serif;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 1.2rem;
       line-height: 27px;
       background: #fff;
       border: none;
