@@ -10,7 +10,7 @@ body {
   align-items: center;
   padding-right: 2rem;
   cursor: pointer;
-  z-index: 99;
+  z-index: 10;
 }
 
 .fa-xmark {
@@ -278,7 +278,7 @@ li {
   margin-left: 16px;
   margin-bottom: 15px;
   align-self: center;
-  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 div.item4 {
@@ -286,23 +286,24 @@ div.item4 {
   padding: 0;
 }
 
-.item4 a {
-  box-sizing: border-box;
+.see-project {
   display: flex;
   align-items: center;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-inline: 0vw;
+  margin-bottom: 10px;
+  width: 32.3vw;
+  background-color: #1a2236;
   color: #fff;
-  background: #1a2236;
-  height: 45px;
-  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
-.item4 a:hover {
-  background: #fff;
-  color: #1a2236;
-  border: 1px solid #1a2236;
+.see-project:hover {
+  background-color: white;
+  color: #1A2236;
 }
 
 .fa-arrow-right {
@@ -622,6 +623,125 @@ div.item4 {
   margin-right: 10px;
   cursor: pointer;
 }
+
+/* work-card-popup*/
+
+.pop-work-card {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+   /* transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+   /* max-width: 80%;
+}
+  
+.pop-work-card :active {
+  /*transform: translate(-50%, -50%) scale(1);*/
+}
+  .pop-work-card .close-xbtn {
+    align-self: flex-end;
+    font-size: 50px;
+   margin-right: 20px;
+   margin-top: 5vw;
+   width: 40px;
+   height: 40px;
+   border: none;
+   background-color: #fff;
+   z-index: 99;
+   cursor: pointer;
+
+  }
+
+  .title {
+    align-self: flex-start;
+    font-size: 1.50rem;
+    font-weight: bold;
+    padding: 1px 20px;
+    margin-left: 16px;
+    color: #1A2236;
+    background-color: white;
+  }
+
+  .pop-tech-container {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .pop-language1,
+  .pop-language2,
+  .pop-language3 {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 80px;
+  padding-left: 10px;
+  margin-left: 13px;
+  text-align: center;
+  background: #fff;
+  border: solid #1a2236 1px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 27px;
+  color: #1a2236;
+  }
+
+  .pop-img1 {
+    padding: 16px; 
+   }
+
+   .pop-text {
+    padding: 16px;
+   }
+
+  .see-live,
+   .see-source {   
+    margin-inline: 22vw;
+    margin-bottom: 5vw;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #fff;
+    border: solid #1a2236 1px;
+    cursor: pointer;
+   }
+
+   .see-live {
+    background: url(images/Unionwc.png) right no-repeat; 
+    background-position-x: 50vw;
+   }
+
+   .see-source {
+    background: url(images/ic_github_white.png) right no-repeat;
+    background-position-x: 50vw;
+   }
+
+   .pop-desktop-btns {
+    display: none;
+   }
+
+  
 
 /* Desktop version starts here */
 
@@ -1073,4 +1193,155 @@ div.item4 {
   .social-links:hover {
     transform: scale(1.5);
   }
-}
+
+  /* pop up window desktop version*/
+
+  .pop-work-card {
+    box-sizing: border-box;
+    /*position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;*/
+      position: fixed;
+      display: flex;
+      align-items: center;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 5vw;
+      padding: 2vw;
+      border: 1px solid black;
+      z-index: 10;
+      background-color: white;
+      width: 80%
+      height: 90%;
+      /*max-width: 80%;*/
+  }
+    
+  .pop-work-card .active {
+    /*transform: translate(-50%, -50%) scale(1);*/
+  }
+    .pop-work-card .close-xbtn {
+      align-self: flex-end;
+      font-size: 50px;
+     margin-right: 20px;
+     margin-top: 5vw;
+     width: 40px;
+     height: 40px;
+     border: none;
+     background-color: #fff;
+     z-index: 99;
+     cursor: pointer;
+  
+    }
+  
+    .title {
+      align-self: flex-start;
+      font-size: 3vw;
+      font-weight: bold;
+      padding: 1px 20px;
+      margin-left: 16px;
+      color: #1A2236;
+      background-color: white;
+    }
+  
+    .pop-tech-container {
+     display: flex;
+     flex-direction: row;
+     align-self: flex-start;
+     margin-left: 1.3vw;
+     
+    }
+  
+    .pop-language1,
+    .pop-language2,
+    .pop-language3 {
+    width: 8vw;
+    padding-left: 10px;
+    margin-left: 13px;
+    text-align: center;
+    background: #fff;
+    border: solid #1a2236 1px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 27px;
+    color: #1a2236;
+    
+    }
+  
+    .pop-img1 {
+      padding: 16px; 
+    
+     }
+  
+     .pop-text {
+      padding: 16px;
+     }
+  
+    .see-live,
+     .see-source {   
+      margin-inline: 22vw;
+      margin-bottom: 5vw;
+      justify-content: center;
+      padding: 10px;
+      width: 60%;
+      font-family:  'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      background: #fff;
+      border: solid #1a2236 1px;
+      cursor: pointer;
+     }
+  
+     .see-live {
+      background: url(images/Unionwc.png) right no-repeat; 
+      background-position-x: 40vw;
+     }
+  
+     .see-source {
+      background: url(images/ic_github_white.png) right no-repeat;
+      background-position-x: 40vw;
+     }
+  
+     .pop-desktop-btns {
+      display: flex;
+      justify-content: space-around;
+     }
+  
+     .previous-work,
+     .next-work {   
+      margin-inline: 22vw;
+      margin-bottom: 5vw;
+      justify-content: center;
+      padding: 10px;
+      margin-inline: 10px;
+      width: 60%;
+      font-family:  'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      background: #fff;
+      border: none;
+      cursor: pointer;
+     }
+  
+     .previous-work .fa-arrow-left {
+      margin-right: 10px;
+     }
+  
+     .next-work .fa-arrow-right {
+      margin-left: 10px;
+     }
+    }
