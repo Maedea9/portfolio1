@@ -33,3 +33,24 @@ document.documentElement.addEventListener('click', (e) => {
     closeIcon.classList.remove('show');
   }
 });
+
+const seeThisProject = document.querySelector('.see-project');
+const dani = document.querySelector('.dani');
+const worksHtml = ` `;
+
+  
+  for(let i = 0; i < 6; i +=1) {
+   seeThisProject.addEventListener('click', () => {
+  dani.innerHTML = worksHtml;
+   const closeWorkCard = document.querySelector('.close-xbtn');
+   const popUp = document.querySelector('.pop-work-card');
+    closeWorkCard.addEventListener('click', () => {
+    popUp.classList.toggle('hide');
+    body.classList.toggle('show');
+    });
+  });
+ }
+  
+
+
+
