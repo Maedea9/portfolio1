@@ -32,6 +32,16 @@ document.documentElement.addEventListener("click", (e) => {
     hamburguerIcon.classList.remove("hide");
     closeIcon.classList.remove("show");
   }
+  if(e.target.matches('.see-project')){
+    const modalWindow = document.querySelector(".modal-window");    
+    modalWindow.style.display = "block";  
+  }
+  if(e.target.matches('.close-xbtn')){
+    const modalWindow = document.querySelector(".modal-window");    
+    modalWindow.style.display = "none";  
+  }
+
+
 });
 
 ///// SEE-THIS-PROJECT///
@@ -42,7 +52,7 @@ function showModal() {
   const modalWindow = document.querySelector(".body");
   const worksHtml = `<div class="modal-window px-2">
 <div class="pop-work-card">
-<div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100 hide">
+<div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
 <button class="close-xbtn fa-solid fa-xmark align-self-end m-0"></button>
 <div class="title m-0 p-0">Project name goes here</div>
 </div>
@@ -74,7 +84,7 @@ function showModal() {
       </div>
       </div>
       </div>`;
-  modalWindow.innerHTML = worksHtml;
+  modalWindow.innerHTML += worksHtml;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -85,22 +95,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const openModalBtn = document.querySelectorAll('.see-project');
 
-openModalBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-   const modalWindow = document.querySelector(".modal-window");
-   modalWindow.styles.display = "block";
-  
-  });
-})
 
 
-seeThisProject.addEventListener("click", () => {
-  // const body = document.querySelector(.body);
-  const closeWorkCard = document.querySelector(".close-xbtn");
-  const popUp = document.querySelector(".modal-window");
-  closeWorkCard.addEventListener("click", () => {
-    popUp.classList.toggle("hide");
-    closeWorkCard.classList.toggle("show");
-  });
+openModalBtn.forEach(element => {
+   element.addEventListener('click', e =>{
+    alert(123)
+   }) 
 });
-for (let i = 0; i < 6; i += 1) {}
+
+
+
+// seeThisProject.addEventListener("click", () => {
+//   // const body = document.querySelector(.body);
+//   const closeWorkCard = document.querySelector(".close-xbtn");
+//   const popUp = document.querySelector(".modal-window");
+//   closeWorkCard.addEventListener("click", () => {
+//     popUp.classList.toggle("hide");
+//     closeWorkCard.classList.toggle("show");
+//   });
+// });
+// for (let i = 0; i < 6; i += 1) {}

@@ -638,8 +638,10 @@ div.item4 {
 
 .modal-window{
   height: 100vh;
-  position: fixed;  
-  /*background-color: white;*/
+  position: fixed;
+  top: 0;  
+  left: 0;
+  background-color: white;
   z-index: 99;  
   overflow-y: scroll;
   display: none; 
