@@ -88,6 +88,8 @@
   color: #1a2236;
 }
 
+/******************INTRO*************/
+
 .first-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -99,19 +101,19 @@
 }
 
 h1 {
+  font-family: 'Times New Roman', Times, serif;
   height: 70px;
   padding-left: 16px;
   font-style: normal;
   font-weight: 400;
-  font-size: 49.9px;
+  font-size: 3vw;
   line-height: 100%;
   color: #1a2236;
-  margin-bottom: 0;
 }
 
 .introduction {
+  font-size: 6vw;
   margin-right: 75px;
-  margin-top: 50px;
   height: auto;
 }
 
@@ -632,8 +634,7 @@ div.item4 {
   background-color: white;
   z-index: 99;  
   overflow-y: scroll;
-  
-  /* display: none; */
+  display: none; 
 }
 
 .dani {        
@@ -679,36 +680,6 @@ div.item4 {
    background-color: #fff;   
    cursor: pointer;
   }
-
-  /*overflow: scroll;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
-
-   /* top: 50%;
-    left: 50%;*/
-   /* transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: white;
-    width: 500px;
-   /* max-width: 80%;
-}
-  
-.pop-work-card :active {
-  /*transform: translate(-50%, -50%) scale(1);
-}*/
-
 
   .pop-tech-container  {
    margin-left: 20px;
@@ -804,39 +775,7 @@ div.item4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  /* overflow: scroll;*/
-    /*position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50%;
-    width: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    font-family: 'Poppins', sans-serif;*/
-     /* position: fixed;
-      display: flex;
-      align-items: center;
-      box-sizing: border-box;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: 3vw;
-      margin-bottom: 3vw;
-      margin-right: 3vw;
-      margin-left: 3vw;
-      padding: 2vw;
-      padding-top: 7vw;
-      border: 1px solid black;
-      z-index: 10;
-      background-color: white;
-      width: 70%
-      height: 90%;*/
-      /*max-width: 80%;*/
+ 
   }
 .pop-header {
     flex-direction: row;
@@ -845,22 +784,6 @@ div.item4 {
     padding: 10px;
   }
     
-  .pop-work-card .active {
-    /*transform: translate(-50%, -50%) scale(1);*/
-  }
-    .pop-work-card .close-xbtn {
-      /*align-self: flex-end;
-      margin-top: 30vw;*/
-      /*font-size: 50px;
-     margin-right: 20px;
-     margin-top: 6vw;
-     width: 40px;
-     height: 40px;
-     border: none;
-     background-color: #fff;
-     z-index: 99;
-     cursor: pointer;*/
-  
     }
   
     .title {
@@ -1099,6 +1022,7 @@ div.item4 {
   }
 
   .grid-area1 > h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 6vw;
     margin-top: -20vw;
     margin-left: 6vw;
@@ -1236,11 +1160,13 @@ div.item4 {
   }
 
   .about-title {
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 3vw;
     font-size: 6vw;
   }
 
   .second-text {
+    margin-top: 3vw;
     width: 100%;
     height: 35%;
   }
@@ -1324,7 +1250,7 @@ div.item4 {
   }
 
   .get-started {
-    font-size: 7vw;
+    font-size: 5vw;
     margin-inline: 3vw;
     margin-top: 10vw;
     margin-bottom: 1.5vw;
@@ -1454,6 +1380,4 @@ div.item4 {
     margin: 0;
     padding: 0;
   }
-
-  
     }
