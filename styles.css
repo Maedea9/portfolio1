@@ -518,8 +518,8 @@ div.item4 {
 .input-textarea {
   border: 0;
   outline: 0;
-  margin-left: 10px;
-  width: 260px;
+  /*margin-left: 10px;*/
+  /*width: 260px;*/
   height: 84px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -527,8 +527,7 @@ div.item4 {
 }
 
 #message-label {
-  font-size: 14px;
-  line-height: 21px;
+ display: none;
 }
 
 #message {
