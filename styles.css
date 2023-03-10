@@ -655,7 +655,6 @@ div.item4 {
 .pop-work-card {  
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
   }
 
   .pop-header {
@@ -1059,11 +1058,11 @@ div.item4 {
     z-index: 0;
   }
 
-  .works:hover > .work-description,
+ .works:hover > .work-description,
   .works:focus {
     visibility: visible;
     margin-top: -10vw;
-    height: 18vw;
+    /*height: 18vw;*/
     transform: translateY(22vw);
     transition: ease-in-out 300ms;
   }
