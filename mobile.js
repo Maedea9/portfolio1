@@ -88,7 +88,7 @@ function showModal() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  showModal();
+  showModal();  
 }) 
 
 ///////FUNCTION TO SHOW MODAL/////////
@@ -115,3 +115,4 @@ openModalBtn.forEach(element => {
 //   });
 // });
 // for (let i = 0; i < 6; i += 1) {}
+
