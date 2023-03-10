@@ -173,8 +173,8 @@ div.box {
 
 h2 {
   font-family: 'Times New Roman', Times, serif;
-  width: 220px;
-  height: 30px;
+  /* width: 220px; */
+  /* height: 30px; */
   padding-left: 16px;
   font-style: normal;
   font-weight: 400;
@@ -429,8 +429,8 @@ div.item4 {
 
 .skill2 {
   display: flex;
-  height: 10px;
-  padding-top: 15px;
+  /* height: 10px; */
+  /* padding-top: 15px; */
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
@@ -449,10 +449,11 @@ div.item4 {
 
 .get-started {
   font-family: 'Times New Roman', Times, serif;
-  margin-right: 135px;
-  margin-top: 106px;
+  /* margin-right: 135px; */
+  /* margin-top: 106px; */
   margin-bottom: 0;
   height: auto;
+  font-size: 110px;
 }
 
 .third-text {
@@ -461,7 +462,7 @@ div.item4 {
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
-  height: 63px;
+  /* height: 63px; */
   margin-left: 16px;
   max-width: 336px;
   margin-bottom: 15px;
@@ -476,7 +477,7 @@ div.item4 {
   flex-direction: column;
   align-items: flex-start;
   height: 52px;
-  width: 335px;
+  /* width: 335px; */
   margin-bottom: 20px;
   margin-left: 0;
   background: #fff;
@@ -503,7 +504,7 @@ div.item4 {
   outline: 0;
   padding-left: 16px;
   height: 84px;
-  width: 315px;
+  /* width: 315px; */
 }
 
 .input:focus {
@@ -897,7 +898,7 @@ div.item4 {
 
   .check,
   .check * {
-    margin: 2px solid black;
+    border: 3px solid rgb(0, 0, 0);
   }
 
 
@@ -1238,10 +1239,10 @@ div.item4 {
   }
 
   .get-started {
-    font-size: 5vw;
-    margin-inline: 3vw;
-    margin-top: 10vw;
-    margin-bottom: 1.5vw;
+    font-size: 110px;
+    /* margin-inline: 3vw; */
+    /* margin-top: 10vw; */
+    /* margin-bottom: 1.5vw; */
     width: fit-content;
   }
 
@@ -1256,11 +1257,11 @@ div.item4 {
     font-size: 14px;
     line-height: 21px;
     color: #1a2236;
-    margin-inline: 2vw;
-    margin-bottom: 4vw;
+    /* margin-inline: 2vw; */
+    /* margin-bottom: 4vw; */
     width: 559px;
-    height: 63px;
-    margin-right: 0;
+    /* height: 63px; */
+    /* margin-right: 0; */
   }
 
   .desktop-contact-ul {
