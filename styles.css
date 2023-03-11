@@ -607,15 +607,27 @@ div.item4 {
 
 /* --------------------------------------------------------------------- */
 
-.modal-window {
-  height: 100vh;
-  position: fixed;
+.modal-container{  
+  height: 100vh;  
   top: 0;
   left: 0;
-  background-color: white;
-  z-index: 99;
-  overflow-y: scroll;
+  right: 0;
   display: none;
+  z-index: 999999;
+  background-color: white;
+}
+
+
+
+.modal-window {
+  height: 100vh;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* background-color: white; */
+  /* z-index: 99; */
+  overflow-y: scroll;
+  /* display: none; */
 }
 
 .dani {
@@ -1182,9 +1194,11 @@ div.item4 {
 
   .modal-window {
     height: 100vh;
-    position: fixed;
+    /* position: fixed; */
     z-index: 99;
     overflow-y: scroll;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .dani {
@@ -1287,7 +1301,7 @@ div.item4 {
   .previous-work,
   .next-work {
     margin-bottom: 5vw;
-    margin-inline: 13vw;
+    /* margin-inline: 13vw; */
     width: 221px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1306,3 +1320,4 @@ div.item4 {
     margin-left: 10px;
   }
 }
+
