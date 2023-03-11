@@ -1,55 +1,105 @@
-const mobileMenu = document.querySelector(".ic_menu");
+const projects = [
+  {
+    image: 'images/Rectangle 21.png',
+    name: 'Project 1',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+  {
+    image: 'images/Rectangle 21v.png',
+    name: 'Project 2',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+   linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+  {
+    image: 'images/Rectangle 21v2.png',
+    name: 'Project 3',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+   linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+  {
+    image: 'images/Rectangle 21 (1).png',
+    name: 'Project 4',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+   linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+  {
+    image: 'images/Rectangle 21 (2).png',
+    name: 'Project 5',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+   linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+  {
+    image: 'images/Rectangle 21 (3).png',
+    name: 'Project 6',
+    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+   linkdemo: 'https://maedea9.github.io/portfolio1/',
+    github: 'https://github.com/Maedea9/portfolio1',
+  },
+];
 
-const hamburguerIcon = document.querySelector(".fa-sharp");
-const closeIcon = document.querySelector(".closed");
+const mobileMenu = document.querySelector('.ic_menu');
 
-const menuIcon = document.querySelector(".menu-mobile");
+const hamburguerIcon = document.querySelector('.fa-sharp');
 
-mobileMenu.addEventListener("click", () => {
-  hamburguerIcon.classList.toggle("hide");
-  closeIcon.classList.toggle("show");
-  menuIcon.classList.toggle("hide");
+const closeIcon = document.querySelector('.closed');
+
+const menuIcon = document.querySelector('.menu-mobile');
+
+mobileMenu.addEventListener('click', () => {
+  hamburguerIcon.classList.toggle('hide');
+  closeIcon.classList.toggle('show');
+  menuIcon.classList.toggle('hide');
 });
 
-document.documentElement.addEventListener("click", (e) => {
-  if (e.target.matches("#link1")) {
-    menuIcon.classList.toggle("hide");
-    hamburguerIcon.classList.remove("hide");
-    closeIcon.classList.remove("show");
+document.documentElement.addEventListener('click', (e) => {
+  if (e.target.matches('#link1')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
-  if (e.target.matches("#link2")) {
-    menuIcon.classList.toggle("hide");
-    hamburguerIcon.classList.remove("hide");
-    closeIcon.classList.remove("show");
+  if (e.target.matches('#link2')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
-  if (e.target.matches("#link3")) {
-    menuIcon.classList.toggle("hide");
-    hamburguerIcon.classList.remove("hide");
-    closeIcon.classList.remove("show");
+  if (e.target.matches('#link3')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
-  if (e.target.matches("#link4")) {
-    menuIcon.classList.toggle("hide");
-    hamburguerIcon.classList.remove("hide");
-    closeIcon.classList.remove("show");
+  if (e.target.matches('#link4')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
   }
-  if(e.target.matches('.see-project')){
-    const modalWindow = document.querySelector(".modal-window");    
-    modalWindow.style.display = "block";  
+  if (e.target.matches('.see-project')) {
+    const modalWindow = document.querySelector('.modal-window');
+    modalWindow.style.display = 'block';
   }
-  if(e.target.matches('.close-xbtn')){
-    const modalWindow = document.querySelector(".modal-window");    
-    modalWindow.style.display = "none";  
+  if (e.target.matches('.close-xbtn')) {
+    const modalWindow = document.querySelector('.modal-window');
+    modalWindow.style.display = 'none';
   }
-
-
 });
 
-///// SEE-THIS-PROJECT///
+/// // SEE-THIS-PROJECT///
 
-const seeThisProject = document.querySelector(".see-project");
+// const seeThisProject = document.querySelector(".see-project");
 
-function showModal() { 
-  const modalWindow = document.querySelector(".body");
+function showModal() {
+  const modalWindow = document.querySelector('.body');
   const worksHtml = `<div class="modal-window px-2">
 <div class="pop-work-card">
 <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
@@ -58,10 +108,10 @@ function showModal() {
 </div>
 
     <div class="pop-tech-container m-0 mt-3">
-    <ul class="ps-0 d-flex gap-3 " >
-    <li class="pop-language1">Html/Css</li>
-    <li class="pop-language2">Ruby on rails</li>
-    <li class="pop-language3">JavaScript</li>
+    <ul class="ps-0 d-flex gap-1" >
+    <li class="pop-language1 sm w-100">Html/Css</li>
+    <li class="pop-language2 sm w-100">Ruby on rails</li>
+    <li class="pop-language3 sm w-100">JavaScript</li>
     </ul>
     </div>
     <img class="pop-img1 p-0 w-100" src="images/Group 109.svg" alt="">
@@ -88,31 +138,14 @@ function showModal() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  showModal();  
-}) 
+  showModal();
+});
 
-///////FUNCTION TO SHOW MODAL/////////
+/// ////FUNCTION TO SHOW MODAL/////////
 
 const openModalBtn = document.querySelectorAll('.see-project');
 
-
-
-openModalBtn.forEach(element => {
-   element.addEventListener('click', e =>{
-    alert(123)
-   }) 
+openModalBtn.forEach((element) => {
+  element.addEventListener('click', () => {
+  });
 });
-
-
-
-// seeThisProject.addEventListener("click", () => {
-//   // const body = document.querySelector(.body);
-//   const closeWorkCard = document.querySelector(".close-xbtn");
-//   const popUp = document.querySelector(".modal-window");
-//   closeWorkCard.addEventListener("click", () => {
-//     popUp.classList.toggle("hide");
-//     closeWorkCard.classList.toggle("show");
-//   });
-// });
-// for (let i = 0; i < 6; i += 1) {}
-
