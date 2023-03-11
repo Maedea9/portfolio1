@@ -55,7 +55,7 @@ const projects = [
   },
 ];
 
-document.documentElement.addEventListener('click', (e) => {
+ document.documentElement.addEventListener('click', (e) => {
   const hamburguerIcon = document.querySelector('.fa-sharp');
   const closeIcon = document.querySelector('.closed');
   const menuIcon = document.querySelector('.menu-mobile');
@@ -98,38 +98,45 @@ document.documentElement.addEventListener('click', (e) => {
 /// // SEE-THIS-PROJECT///
 
 function showModal() {
+  //const seeProject = document.querySelectorAll('.see-project');
   const modalWindow = document.querySelector('.body');
-  const worksHtml = `<div class="modal-window px-2">
-<div class="pop-work-card">
-<div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
-<button class="close-xbtn fa-solid fa-xmark align-self-end m-0"></button>
-<div class="title m-0 p-0">${projects[0].name}</div>
-</div>
-
-    <div class="pop-tech-container m-0 mt-3">
-    <ul class="ps-0 d-flex gap-1" >
-    <li class="pop-language1 sm w-100">${projects[0].languages[0]}</li>
-    <li class="pop-language2 sm w-100">${projects[0].languages[1]}</li>
-    <li class="pop-language3 sm w-100">${projects[0].languages[2]}</li>
-    </ul>
+  let worksHtml = ' ';
+  for (let i = 0; i < projects.length; i+=1) {
+    worksHtml += `<div class="modal-window px-2">
+    <div class="pop-work-card">
+    <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
+    <button class="close-xbtn fa-solid fa-xmark align-self-end m-0"></button>
+    <div class="title m-0 p-0">${projects[i].name}</div>
     </div>
-    <img class="pop-img1 p-0 w-100" src=${projects[0].image} alt="">
     
-      <div class="mx-0 modal-text-cont mt-4" >
-        <p class="pop-text mx-auto p-0">${projects[0].description}</p>
-  
-        <div class="live-source-btns mx-auto"> 
-          <a href=${projects[0].linkdemo} class="see-live">See Live</a>
-          <a href=${projects[0].github} class="see-source">See Source</a>
-          </div> 
-      </div>
+        <div class="pop-tech-container m-0 mt-3">
+        <ul class="ps-0 d-flex gap-1" >
+        <li class="pop-language1 sm w-100">${projects[i].languages[0]}</li>
+        <li class="pop-language2 sm w-100">${projects[i].languages[1]}</li>
+        <li class="pop-language3 sm w-100">${projects[i].languages[2]}</li>
+        </ul>
+        </div>
+        <img class="pop-img1 p-0 w-100" src=${projects[i].image} alt="">
+        
+          <div class="mx-0 modal-text-cont mt-4" >
+            <p class="pop-text mx-auto p-0">${projects[i].description}</p>
       
-      <div class="pop-desktop-btns">
-      <button class="previous-work"><i class="fa-solid fa-arrow-left"></i>Previous project</button>
-      <button class="next-work">Next project<i class="fa-solid fa-arrow-right"></i></button>
-      </div>
-      </div>
-      </div>`;
+            <div class="live-source-btns mx-auto"> 
+              <a href=${projects[i].linkdemo} class="see-live">See Live</a>
+              <a href=${projects[i].github} class="see-source">See Source</a>
+              </div> 
+          </div>
+          
+          <div class="pop-desktop-btns">
+          <button class="previous-work"><i class="fa-solid fa-arrow-left"></i>Previous project</button>
+          <button class="next-work">Next project<i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+          </div>
+          </div>`;
+          //seeProject[i].addEventListener('click', () => {
+            //const main = document.querySelector('.main');
+            //body.innerHTML = worksHtml;
+  }
   modalWindow.innerHTML += worksHtml;
 }
 
