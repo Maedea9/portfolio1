@@ -48,90 +48,8 @@ const projects = [{
 },
 ];
 
-document.documentElement.addEventListener('click', (e) => {
-  const hamburguerIcon = document.querySelector('.fa-sharp');
-  const closeIcon = document.querySelector('.closed');
-  const menuIcon = document.querySelector('.menu-mobile');
-
-  if (e.target.matches('#link1')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link2')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link3')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link4')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('.see-project')) {
-    const nboton = e.srcElement.getAttribute('data-id');
-    createmodal(nboton);
-
-    function createmodal(n) {
-      const i = n || 0;
-
-      const container = document.querySelector('.modal-container');
-
-      let worksHtml = '';
-
-      worksHtml += `<div class="modal-window px-2">
-          <div class="pop-work-card">
-            <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
-              <button class="close-xbtn fa-solid fa-xmark align-self-end m-0"></button>
-              <div class="title m-0 p-0">${projects[i].name}</div>
-            </div>
-            <div class="pop-tech-container m-0 mt-3">
-              <ul class="ps-0 d-flex gap-1" >
-                <li class="pop-language1 sm w-100">${projects[i].languages[0]}</li>
-                <li class="pop-language2 sm w-100">${projects[i].languages[1]}</li>
-                <li class="pop-language3 sm w-100">${projects[i].languages[2]}</li>
-              </ul>
-            </div>
-            <img class="pop-img1 p-0 w-100" src=${projects[i].image} alt="">
-            <div class="mx-0 modal-text-cont mt-4" >
-              <p class="pop-text mx-auto p-0">${projects[i].description}</p>
-              <div class="live-source-btns mx-auto"> 
-                <a href=${projects[i].linkdemo} class="see-live">See Live</a>
-                <a href=${projects[i].github} class="see-source">See Source</a>
-              </div> 
-            </div>
-            <div class="pop-desktop-btns">
-              <button class="previous-work"><i class="fa-solid fa-arrow-left"></i>Previous project</button>
-              <button class="next-work">Next project<i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-          </div>
-      </div>`;
-      container.innerHTML = worksHtml;
-    }
-
-    const modalWindow = document.querySelector('.modal-container');
-    modalWindow.style.display = 'block';
-  }
-  if (e.target.matches('.close-xbtn')) {
-    const modalWindow = document.querySelector('.modal-container');
-    modalWindow.style.display = 'none';
-  }
-  if (e.target.matches('.ic_menu *')) {
-    hamburguerIcon.classList.toggle('hide');
-    closeIcon.classList.toggle('show');
-    menuIcon.classList.toggle('hide');
-  }
-});
-
-/// // SEE-THIS-PROJECT///
-
 function createmodal(n) {
-  const i = n || 0;
+  const i = n 
 
   const container = document.querySelector('.modal-container');
 
@@ -167,8 +85,55 @@ function createmodal(n) {
   container.innerHTML = worksHtml;
 }
 
+
+document.documentElement.addEventListener('click', (e) => {
+  const hamburguerIcon = document.querySelector('.fa-sharp');
+  const closeIcon = document.querySelector('.closed');
+  const menuIcon = document.querySelector('.menu-mobile');
+
+  if (e.target.matches('#link1')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
+  }
+  if (e.target.matches('#link2')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
+  }
+  if (e.target.matches('#link3')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
+  }
+  if (e.target.matches('#link4')) {
+    menuIcon.classList.toggle('hide');
+    hamburguerIcon.classList.remove('hide');
+    closeIcon.classList.remove('show');
+  }
+  if (e.target.matches('.see-project')) {
+    const nboton = e.srcElement.getAttribute('data-id');
+    createmodal(nboton);
+    const modalWindow = document.querySelector('.modal-container');
+    modalWindow.style.display = 'block';
+  }
+  if (e.target.matches('.close-xbtn')) {
+    const modalWindow = document.querySelector('.modal-container');
+    modalWindow.style.display = 'none';
+  }
+  if (e.target.matches('.ic_menu *')) {
+    hamburguerIcon.classList.toggle('hide');
+    closeIcon.classList.toggle('show');
+    menuIcon.classList.toggle('hide');
+  }
+});
+
+/// // SEE-THIS-PROJECT///
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
-  createmodal();
+  createprojects(); 
 });
 
 // -------------------------------------------------create projects
@@ -227,4 +192,4 @@ function createprojects() {
   }
 }
 
-createprojects();
+
