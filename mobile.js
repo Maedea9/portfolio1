@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: 'images/Rectangle 21.png',
+    image: 'images/Rectangle21.png',
     name: 'Project 1',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -8,7 +8,7 @@ const projects = [
     github: 'https://github.com/Maedea9/portfolio1',
   },
   {
-    image: 'images/Rectangle 21v.png',
+    image: 'images/Rectangle21v.png',
     name: 'Project 2',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -16,7 +16,7 @@ const projects = [
     github: 'https://github.com/Maedea9/portfolio1',
   },
   {
-    image: 'images/Rectangle 21v2.png',
+    image: 'images/Rectangle21v2.png',
     name: 'Project 3',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -24,7 +24,7 @@ const projects = [
     github: 'https://github.com/Maedea9/portfolio1',
   },
   {
-    image: 'images/Rectangle 21 (1).png',
+    image: 'images/Rectangle21(1).png',
     name: 'Project 4',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -32,7 +32,7 @@ const projects = [
     github: 'https://github.com/Maedea9/portfolio1',
   },
   {
-    image: 'images/Rectangle 21 (2).png',
+    image: 'images/Rectangle21(2).png',
     name: 'Project 5',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -40,7 +40,7 @@ const projects = [
     github: 'https://github.com/Maedea9/portfolio1',
   },
   {
-    image: 'images/Rectangle 21 (3).png',
+    image: 'images/Rectangle21(3).png',
     name: 'Project 6',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -104,27 +104,24 @@ function showModal() {
 <div class="pop-work-card">
 <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
 <button class="close-xbtn fa-solid fa-xmark align-self-end m-0"></button>
-<div class="title m-0 p-0">Project name goes here</div>
+<div class="title m-0 p-0">${projects[0].name}</div>
 </div>
 
     <div class="pop-tech-container m-0 mt-3">
     <ul class="ps-0 d-flex gap-1" >
-    <li class="pop-language1 sm w-100">Html/Css</li>
-    <li class="pop-language2 sm w-100">Ruby on rails</li>
-    <li class="pop-language3 sm w-100">JavaScript</li>
+    <li class="pop-language1 sm w-100">${projects[0].languages[0]}</li>
+    <li class="pop-language2 sm w-100">${projects[0].languages[1]}</li>
+    <li class="pop-language3 sm w-100">${projects[0].languages[2]}</li>
     </ul>
     </div>
-    <img class="pop-img1 p-0 w-100" src="images/Group 109.svg" alt="">
+    <img class="pop-img1 p-0 w-100" src=${projects[0].image} alt="">
     
       <div class="mx-0 modal-text-cont mt-4" >
-        <p class="pop-text mx-auto p-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </br> <br> Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. 
-        </p>
+        <p class="pop-text mx-auto p-0">${projects[0].description}</p>
   
         <div class="live-source-btns mx-auto"> 
-          <button class="see-live">
-          See Live              
-          </button>
-          <button class="see-source">See source</button>
+          <a href=${projects[0].linkdemo} class="see-live">See Live</a>
+          <a href=${projects[0].github} class="see-source">See Source</a>
           </div> 
       </div>
       
@@ -139,7 +136,13 @@ function showModal() {
 
 document.addEventListener('DOMContentLoaded', () => {
   showModal();
+createprojects();
 });
+
+function createprojects() {
+  for (let i = 0; i < projects.length; i += 1) {
+    
+}
 
 /// ////FUNCTION TO SHOW MODAL/////////
 
@@ -149,3 +152,15 @@ openModalBtn.forEach((element) => {
   element.addEventListener('click', () => {
   });
 });
+
+seeThisProject.addEventListener("click", () => {
+  //   // const body = document.querySelector(.body);
+  //   const closeWorkCard = document.querySelector(".close-xbtn");
+  //   const popUp = document.querySelector(".modal-window");
+  //   closeWorkCard.addEventListener("click", () => {
+  //     popUp.classList.toggle("hide");
+  //     closeWorkCard.classList.toggle("show");
+  //   });
+  // });
+  // for (let i = 0; i < 6; i += 1) {}
+})

@@ -713,7 +713,9 @@ div.item4 {
     line-height: 27px;
     background: #fff;
     border: solid #1a2236 1px;
+    color: #1a2236;
     cursor: pointer;
+    text-decoration: none;
    }
 
    .see-live {
