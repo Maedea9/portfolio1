@@ -1,97 +1,43 @@
-const projects = [
-  {
-    image: 'images/Rectangle21.png',
-    name: 'Project 1',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21v.png',
-    name: 'Project 2',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-   linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21v2.png',
-    name: 'Project 3',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-   linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(1).png',
-    name: 'Project 4',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-   linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(2).png',
-    name: 'Project 5',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-   linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(3).png',
-    name: 'Project 6',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-   linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-];
+document.documentElement.addEventListener("click", (e) => {
+  const hamburguerIcon = document.querySelector(".fa-sharp");
+  const closeIcon = document.querySelector(".closed");
+  const menuIcon = document.querySelector(".menu-mobile");
 
-const mobileMenu = document.querySelector('.ic_menu');
+  console.log(e.target)
+  if (e.target.matches("#link1")) {
+    menuIcon.classList.toggle("hide");
+    hamburguerIcon.classList.remove("hide");
+    closeIcon.classList.remove("show");
+  }
+  if (e.target.matches("#link2")) {
+    menuIcon.classList.toggle("hide");
+    hamburguerIcon.classList.remove("hide");
+    closeIcon.classList.remove("show");
+  }
+  if (e.target.matches("#link3")) {
+    menuIcon.classList.toggle("hide");
+    hamburguerIcon.classList.remove("hide");
+    closeIcon.classList.remove("show");
+  }
+  if (e.target.matches("#link4")) {
+    menuIcon.classList.toggle("hide");
+    hamburguerIcon.classList.remove("hide");
+    closeIcon.classList.remove("show");
+  }
+  if (e.target.matches(".see-project")) {
+    const modalWindow = document.querySelector(".modal-window");
+    modalWindow.style.display = "block";
+  }
+  if (e.target.matches(".close-xbtn")) {
+    const modalWindow = document.querySelector(".modal-window");
+    modalWindow.style.display = "none";
+  }
+  if(e.target.matches('.ic_menu *')){    
+    hamburguerIcon.classList.toggle("hide");
+    closeIcon.classList.toggle("show");
+    menuIcon.classList.toggle("hide");
+  }
 
-const hamburguerIcon = document.querySelector('.fa-sharp');
-
-const closeIcon = document.querySelector('.closed');
-
-const menuIcon = document.querySelector('.menu-mobile');
-
-mobileMenu.addEventListener('click', () => {
-  hamburguerIcon.classList.toggle('hide');
-  closeIcon.classList.toggle('show');
-  menuIcon.classList.toggle('hide');
-});
-
-document.documentElement.addEventListener('click', (e) => {
-  if (e.target.matches('#link1')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link2')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link3')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('#link4')) {
-    menuIcon.classList.toggle('hide');
-    hamburguerIcon.classList.remove('hide');
-    closeIcon.classList.remove('show');
-  }
-  if (e.target.matches('.see-project')) {
-    const modalWindow = document.querySelector('.modal-window');
-    modalWindow.style.display = 'block';
-  }
-  if (e.target.matches('.close-xbtn')) {
-    const modalWindow = document.querySelector('.modal-window');
-    modalWindow.style.display = 'none';
-  }
 });
 
 /// // SEE-THIS-PROJECT///
@@ -99,7 +45,7 @@ document.documentElement.addEventListener('click', (e) => {
 // const seeThisProject = document.querySelector(".see-project");
 
 function showModal() {
-  const modalWindow = document.querySelector('.body');
+  const modalWindow = document.querySelector(".body");
   const worksHtml = `<div class="modal-window px-2">
 <div class="pop-work-card">
 <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
@@ -134,33 +80,136 @@ function showModal() {
   modalWindow.innerHTML += worksHtml;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  showModal();
-createprojects();
+document.addEventListener("DOMContentLoaded", () => {
+  showModal();  
 });
+
+// function createprojects() {
+//   for (let i = 0; i < projects.length; i += 1) {}
+//   const openModalBtn = document.querySelectorAll(".see-project");
+//   openModalBtn.forEach((element) => {
+//     element.addEventListener("click", () => {});
+//   });
+// }
+
+// -------------------------------------------------create projects
+
+// general variables
+
+// card info
+
+const projects = [
+  {
+    image: "images/Rectangle21.png",
+    name: "Project 1",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+  {
+    image: "images/Rectangle21v.png",
+    name: "Project 2",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+  {
+    image: "images/Rectangle21v2.png",
+    name: "Project 3",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+  {
+    image: "images/Rectangle21(1).png",
+    name: "Project 4",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+  {
+    image: "images/Rectangle21(2).png",
+    name: "Project 5",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+  {
+    image: "images/Rectangle21(3).png",
+    name: "Project 6",
+    languages: ["Html/Css", "Ruby on Rails", "JavaScript"],
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    linkdemo: "https://maedea9.github.io/portfolio1/",
+    github: "https://github.com/Maedea9/portfolio1",
+  },
+];
+
+// card template
+
+// container
+let container = document.querySelector(".projects");
+
+let gridArea1 = `
+  <div class="grid-area1">
+  <h2 id="project-title">Projects</h2>
+  </div>
+`;
+container.innerHTML = gridArea1;
 
 function createprojects() {
-  for (let i = 0; i < projects.length; i += 1) {
-    
+  for (let i = 0; i < projects.length; i++) {
+    let cardTemplate = `
+<img class="image1" src="${projects[i].image}" alt="project-1" width="100%">
+<div class="work-description ">
+  <h3> ${projects[i].name} </h3>
+  <ul class="technology-container">
+    <li class="item1"> ${projects[i].languages[0]} </li>
+    <li class="item2"> ${projects[i].languages[1]} </li>
+    <li class="item3"> ${projects[i].languages[2]} </li>
+  </ul>
+  <div class="item4">
+    <button class="see-project">See this project <i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+</div>
+`;
+
+    let article = document.createElement("article");
+    article.className = `works w${i}`;
+    article.innerHTML = cardTemplate;
+    container.appendChild(article);
+
+    if (i == 1) {
+      let desktopimg = document.createElement("div");
+      desktopimg.className = `desktop-geoma`;
+      container.appendChild(desktopimg);
+    }
+
+    if (i == 2) {
+      let desktopimg1 = document.createElement("div");
+      desktopimg1.className = `desktop-geomc`;
+      container.appendChild(desktopimg1);
+      let desktopimg2 = document.createElement("div");
+      desktopimg2.className = `desktop-geomd`;      
+      container.appendChild(desktopimg2);
+    }
+
+    if (i == 4) {
+      let desktopimg = document.createElement("div");
+      desktopimg.className = `desktop-geomb`;
+      container.appendChild(desktopimg);
+    }
+  }
 }
 
-/// ////FUNCTION TO SHOW MODAL/////////
-
-const openModalBtn = document.querySelectorAll('.see-project');
-
-openModalBtn.forEach((element) => {
-  element.addEventListener('click', () => {
-  });
-});
-
-seeThisProject.addEventListener("click", () => {
-  //   // const body = document.querySelector(.body);
-  //   const closeWorkCard = document.querySelector(".close-xbtn");
-  //   const popUp = document.querySelector(".modal-window");
-  //   closeWorkCard.addEventListener("click", () => {
-  //     popUp.classList.toggle("hide");
-  //     closeWorkCard.classList.toggle("show");
-  //   });
-  // });
-  // for (let i = 0; i < 6; i += 1) {}
-})
+createprojects();

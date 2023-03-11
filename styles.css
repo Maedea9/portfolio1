@@ -851,7 +851,7 @@ div.item4 {
     margin-left: 6vw;
   }
 
-  .projects > .w {
+  .projects > .w0 {
     grid-area: w;
     width: 64vw;
     margin-inline: -25vw;
