@@ -128,13 +128,6 @@ document.documentElement.addEventListener('click', (e) => {
   }
 });
 
-/// // SEE-THIS-PROJECT///
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  createprojects(); 
-});
 
 // -------------------------------------------------create projects
 
@@ -191,5 +184,14 @@ function createprojects() {
     }
   }
 }
+
+
+/// // SEE-THIS-PROJECT///
+
+document.addEventListener('DOMContentLoaded', () => {
+  createprojects(); 
+});
+
+
 
 
