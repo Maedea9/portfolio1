@@ -49,7 +49,7 @@ const projects = [{
 ];
 
 function createmodal(n) {
-  const i = n 
+  const i = n;
 
   const container = document.querySelector('.modal-container');
 
@@ -84,7 +84,6 @@ function createmodal(n) {
   </div>`;
   container.innerHTML = worksHtml;
 }
-
 
 document.documentElement.addEventListener('click', (e) => {
   const hamburguerIcon = document.querySelector('.fa-sharp');
@@ -127,7 +126,6 @@ document.documentElement.addEventListener('click', (e) => {
     menuIcon.classList.toggle('hide');
   }
 });
-
 
 // -------------------------------------------------create projects
 
@@ -185,13 +183,8 @@ function createprojects() {
   }
 }
 
-
 /// // SEE-THIS-PROJECT///
 
 document.addEventListener('DOMContentLoaded', () => {
-  createprojects(); 
+  createprojects();
 });
-
-
-
-
