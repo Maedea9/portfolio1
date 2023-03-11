@@ -72,7 +72,9 @@ To run the project, execute the "index.html" file in your browser
 - **[Desktop Version]**
 - **[Deploy using Github Pages]**
 - **[Accesibility tested]**
-- **[Mobile menu implemented witj JavaScript]**
+- **[Mobile menu implemented with JavaScript]**
+- **[Modal Window implemented with JavaScript]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +109,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Work Section descriptions in pop-up windows]**
+- [ ] **[Form Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +125,7 @@ If you like this project you can follow my work through my social networks
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse, my Coding partner, Standup Team and Morning Sessions Team for supporting me.
+I would like to thank Microverse, my Coding partner @benja27 who helped me throughout this difficult project, Standup Team and Morning Sessions Team for supporting me.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
