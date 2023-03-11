@@ -1,7 +1,7 @@
 const projects = [
   {
     image: 'images/Rectangle21.png',
-    name: 'Project 1',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     image: 'images/Rectangle21v.png',
-    name: 'Project 2',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     image: 'images/Rectangle21v2.png',
-    name: 'Project 3',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     image: 'images/Rectangle21(1).png',
-    name: 'Project 4',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     image: 'images/Rectangle21(2).png',
-    name: 'Project 5',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     image: 'images/Rectangle21(3).png',
-    name: 'Project 6',
+    name: 'Project name',
     languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
