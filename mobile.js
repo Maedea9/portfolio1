@@ -1,51 +1,51 @@
 const projects = [{
-    image: 'images/Rectangle21.png',
-    name: 'Project name 1',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21v.png',
-    name: 'Project name 2',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21v2.png',
-    name: 'Project name',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(1).png',
-    name: 'Project name',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(2).png',
-    name: 'Project name',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
-  {
-    image: 'images/Rectangle21(3).png',
-    name: 'Project name',
-    languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    linkdemo: 'https://maedea9.github.io/portfolio1/',
-    github: 'https://github.com/Maedea9/portfolio1',
-  },
+  image: 'images/Rectangle21.png',
+  name: 'Project name 1',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
+{
+  image: 'images/Rectangle21v.png',
+  name: 'Project name 2',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
+{
+  image: 'images/Rectangle21v2.png',
+  name: 'Project name',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
+{
+  image: 'images/Rectangle21(1).png',
+  name: 'Project name',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
+{
+  image: 'images/Rectangle21(2).png',
+  name: 'Project name',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
+{
+  image: 'images/Rectangle21(3).png',
+  name: 'Project name',
+  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  linkdemo: 'https://maedea9.github.io/portfolio1/',
+  github: 'https://github.com/Maedea9/portfolio1',
+},
 ];
 
 document.documentElement.addEventListener('click', (e) => {
@@ -73,17 +73,17 @@ document.documentElement.addEventListener('click', (e) => {
     hamburguerIcon.classList.remove('hide');
     closeIcon.classList.remove('show');
   }
-  if (e.target.matches('.see-project')) {        
-    let nboton = e.srcElement.getAttribute('data-id')
-    createmodal(nboton)
-    
+  if (e.target.matches('.see-project')) {
+    const nboton = e.srcElement.getAttribute('data-id');
+    createmodal(nboton);
+
     function createmodal(n) {
-      let i = n || 0
-    
+      const i = n || 0;
+
       const container = document.querySelector('.modal-container');
-    
-      let worksHtml = ``;
-      
+
+      let worksHtml = '';
+
       worksHtml += `<div class="modal-window px-2">
           <div class="pop-work-card">
             <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
@@ -113,7 +113,7 @@ document.documentElement.addEventListener('click', (e) => {
       </div>`;
       container.innerHTML = worksHtml;
     }
-    
+
     const modalWindow = document.querySelector('.modal-container');
     modalWindow.style.display = 'block';
   }
@@ -131,12 +131,12 @@ document.documentElement.addEventListener('click', (e) => {
 /// // SEE-THIS-PROJECT///
 
 function createmodal(n) {
-  let i = n || 0
+  const i = n || 0;
 
   const container = document.querySelector('.modal-container');
 
-  let worksHtml = ``;
-  
+  let worksHtml = '';
+
   worksHtml += `<div class="modal-window px-2">
       <div class="pop-work-card">
         <div class="pop-header p-0 d-flex flex-column flex-md-row-reverse w-100">
@@ -166,7 +166,6 @@ function createmodal(n) {
   </div>`;
   container.innerHTML = worksHtml;
 }
-
 
 document.addEventListener('DOMContentLoaded', () => {
   createmodal();
@@ -229,4 +228,3 @@ function createprojects() {
 }
 
 createprojects();
-

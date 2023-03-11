@@ -607,8 +607,8 @@ div.item4 {
 
 /* --------------------------------------------------------------------- */
 
-.modal-container{  
-  height: 100vh;  
+.modal-container {
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
@@ -617,16 +617,19 @@ div.item4 {
   background-color: white;
 }
 
-
-
 .modal-window {
   height: 100vh;
+
   /* position: fixed; */
+
   /* top: 0;
   left: 0; */
+
   /* background-color: white; */
+
   /* z-index: 99; */
   overflow-y: scroll;
+
   /* display: none; */
 }
 
@@ -1194,6 +1197,7 @@ div.item4 {
 
   .modal-window {
     height: 100vh;
+
     /* position: fixed; */
     z-index: 99;
     overflow-y: scroll;
@@ -1301,6 +1305,7 @@ div.item4 {
   .previous-work,
   .next-work {
     margin-bottom: 5vw;
+
     /* margin-inline: 13vw; */
     width: 221px;
     font-family: 'Poppins', sans-serif;
@@ -1320,4 +1325,3 @@ div.item4 {
     margin-left: 10px;
   }
 }
-
