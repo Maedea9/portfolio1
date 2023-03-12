@@ -74,6 +74,7 @@ To run the project, execute the "index.html" file in your browser
 - **[Accesibility tested]**
 - **[Mobile menu implemented with JavaScript]**
 - **[Modal Window implemented with JavaScript]**
+- **[Form Validation]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +110,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Form Validation]**
+- [ ] **[Real projects!]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +126,7 @@ If you like this project you can follow my work through my social networks
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse, my Coding partner @benja27 who helped me throughout this difficult project, Standup Team and Morning Sessions Team for supporting me.
+I would like to thank Microverse, my Coding partners who helped me throughout this difficult week, Standup Team and Morning Sessions Team for supporting me.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
