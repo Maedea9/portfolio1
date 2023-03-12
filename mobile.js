@@ -188,3 +188,17 @@ function createprojects() {
 document.addEventListener('DOMContentLoaded', () => {
   createprojects();
 });
+
+// FORM VALIDATION ////////////////////////////////////////////////////////////////////////////////
+const submit = document.querySelector('#form-submit');
+const errorMessage = document.querySelector('#error-message');
+submit.addEventListener('click', (event) => {
+  const emailInput = document.querySelector('#email');
+  const emailValue = emailInput.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = 'Please use only lowercase email addresses!';
+    return false;
+  }
+  return true;
+});
