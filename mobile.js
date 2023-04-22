@@ -1,10 +1,10 @@
 const projects = [{
-  image: 'images/Rectangle21.png',
-  name: 'Project name 1',
-  languages: ['Html/Css', 'Ruby on Rails', 'JavaScript'],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-  linkdemo: 'https://maedea9.github.io/portfolio1/',
-  github: 'https://github.com/Maedea9/portfolio1',
+  image: 'images/capstonescreenshot.png',
+  name: 'Musical Festival Website',
+  languages: ['Html', 'CSS', 'JavaScript'],
+  description: 'This is a Music Festival website that renders dynamic content with JavaScript. With this project I could work on DOM manipulation skills.',
+  linkdemo: 'https://maedea9.github.io/capstone-m1/',
+  github: 'https://github.com/Maedea9/capstone-m1',
 },
 {
   image: 'images/Rectangle21v.png',

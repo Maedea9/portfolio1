@@ -1139,7 +1139,7 @@ div.item4 {
   .label {
     height: 15px;
     width: auto;
-    margin-top: -28px;
+    /* margin-top: -28px; */
     margin-left: 16px;
     margin-bottom: 4px;
     color: #7d7c84;
